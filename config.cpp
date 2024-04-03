@@ -25,7 +25,6 @@ class CfgPatches
 			"tmane_lurk_base",
 			"tmane_fatlurk_base",
 			"tmane_fastlurk_base",
-			"DZ_Characters_Zombies"
 		};
 	};
 };
@@ -153,12 +152,26 @@ class CfgVehicles
 	/*
 		TLOU Mutants
 	*/
-	class ZombieMaleBase;
+	class tmane_lurk_base;
 
-	class tmane_lurk_base : ZombieMaleBase
-	{
+	class tmane_lurk: tmane_lurk_base {
+		displayName="Barnacle";
+		descriptionShort="This ferral has become mutated beyond recognition...";
+	};
 
-	}
+	class tmane_fastlurk_base;
+
+	class tmane_fastlurk: tmane_fastlurk_base {
+		displayName="Emaciated Barnacle";
+		descriptionShort="This ferral has become mutated beyond recognition...";
+	};
+
+	class tmane_fatlurk_base;
+
+	class tmane_fatlurk: tmane_fatlurk_base {
+		displayName="Bloated Barnacle";
+		descriptionShort="This ferral has become mutated beyond recognition...";
+	};
 
 	class Inventory_Base;
 

@@ -2,13 +2,13 @@ class FFFF_Glow_Mushrooms_Harvestable_Base : ItemBase {};
 
 class FFFF_Glow_Mushrooms_Harvestable_Green : FFFF_Glow_Mushrooms_Harvestable_Base
 {
-    MushroomLight m_Light;
+    MushroomLightGreen m_Light;
 
     void FFFF_Glow_Mushrooms_Harvestable_Green()
     {
         if (GetGame().IsClient() || !GetGame().IsMultiplayer())
         {
-            m_Light = MushroomLight.Cast( ScriptedLightBase.CreateLight(MushroomLight, "0 0 0", 0.08) );
+            m_Light = MushroomLightGreen.Cast( ScriptedLightBase.CreateLight(MushroomLightGreen, "0 0 0", 0.08) );
             m_Light.AttachOnMemoryPoint(this, "lightPoint");
         }
     }
