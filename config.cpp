@@ -723,12 +723,12 @@ class CfgVehicles
 	};
 
 	class AgaricusMushroom;
-	class FFFF_Glow_Mushroom_Green : AgaricusMushroom
+	class FFFF_Glow_Mushroom_Base : AgaricusMushroom
 	{
 		scope=2;
 		displayName="Glowing Mushroom";
 		descriptionShort="Some sort of mutated fungus...";
-		model="ffff_items\Data\FFFF_Glow_Mushroom\FFFF_Glow_Mushroom_Single.p3d";
+		model="ffff_items\Data\FFFF_Glow_Mushroom\Single\FFFF_Glow_Mushroom_Single.p3d";
 		weight=0;
 		itemSize[]={1,2};
 		varQuantityInit=150;
@@ -753,20 +753,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_co.paa",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_raw_co.paa",
 			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_baked_co.paa",
 			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_boiled_co.paa",
 			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_dried_co.paa",
 			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_burnt_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom.rvmat",
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_baked.rvmat",
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_boiled.rvmat",
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_dried.rvmat",
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_burnt.rvmat",
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_rotten.rvmat"
 		};
 		class DamageSystem
         {
@@ -855,33 +846,69 @@ class CfgVehicles
 			};
 		};
 	};
+
+	class FFFF_Glow_Mushroom_Green : FFFF_Glow_Mushroom_Base
+	{
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_green.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_baked.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_boiled.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_dried.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_burnt.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_rotten.rvmat"
+		};
+	};
+
+	
+	class FFFF_Glow_Mushroom_Blue : FFFF_Glow_Mushroom_Base
+	{
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_blue.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_baked.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_boiled.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_dried.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_burnt.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_rotten.rvmat"
+		};
+	};
+
+	
+	class FFFF_Glow_Mushroom_Purple : FFFF_Glow_Mushroom_Base
+	{
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_purple.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_baked.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_boiled.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_dried.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_burnt.rvmat",
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_rotten.rvmat"
+		};
+	};
+
 	class FFFF_Glow_Mushrooms_Harvestable_Base: Inventory_Base
 	{
 		displayName="Glowing Mushroom";
 		descriptionShort="Some sort of mutated fungus...";
 		scope=0;
-		model="ffff_items\Data\FFFF_Glow_Mushroom\FFFF_Glow_Mushroom_Cluster.p3d";
+		model="ffff_items\Data\FFFF_Glow_Mushroom\Cluster\FFFF_Glow_Mushroom_Cluster.p3d";
 		hiddenSelections[]=
 		{
-			"zbytek"
+			"camo1",
+			"camo2",
+			"camo3"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_co.paa"
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_raw_co.paa"
 		};
 	};
 
 	class FFFF_Glow_Mushrooms_Harvestable_Green : FFFF_Glow_Mushrooms_Harvestable_Base
 	{
 		scope=2;
-		hiddenSelections[]=
-		{
-			"zbytek"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_co.paa"
-		};
 		class Harvesting
         {
             class ObtainedMushrooms
@@ -891,5 +918,57 @@ class CfgVehicles
                 quantityMinMaxCoef[]={0.5, 1};
             };
         };
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_green.rvmat",
+		};
+	};
+
+	class FFFF_Glow_Mushrooms_Harvestable_Blue : FFFF_Glow_Mushrooms_Harvestable_Base
+	{
+		scope=2;
+		class Harvesting
+        {
+            class ObtainedMushrooms
+            {
+                item="FFFF_Glow_Mushroom_Blue";
+                count=5;
+                quantityMinMaxCoef[]={0.5, 1};
+            };
+        };
+		hiddenSelections[]=
+		{
+			"camo2"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_blue.rvmat",
+		};
+	};
+
+	class FFFF_Glow_Mushrooms_Harvestable_Purple : FFFF_Glow_Mushrooms_Harvestable_Base
+	{
+		scope=2;
+		class Harvesting
+        {
+            class ObtainedMushrooms
+            {
+                item="FFFF_Glow_Mushroom_Purple";
+                count=5;
+                quantityMinMaxCoef[]={0.5, 1};
+            };
+        };
+		hiddenSelections[]=
+		{
+			"camo3"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\FFFF_Glow_Mushroom\Textures\ffff_glow_mushroom_purple.rvmat",
+		};
 	};
 };
