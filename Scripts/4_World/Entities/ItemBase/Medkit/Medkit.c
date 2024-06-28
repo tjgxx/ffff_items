@@ -1,10 +1,5 @@
 class FFFF_Medkit_Base extends ItemBase
 {
-    void FFFF_Medkit_Base()
-    {
-
-    }
-
     override float GetBandagingEffectivity()
     {
         return 1.0;

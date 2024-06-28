@@ -1,33 +1,23 @@
-class FFFF_ProtectorCaseStash_T1 : SmallProtectorCase
+class FFFF_Stash_Base : Inventory_Base 
 {
-  override bool CanPutIntoHands(EntityAI parent)
+  bool m_IsSearched = false;
+
+  void FFFF_Stash_Base()
   {
-      return false;
+    RegisterNetSyncVariableBool("m_IsSearched");
   }
 
-  override bool CanPutInCargo(EntityAI parent)
+  void OpenStash()
   {
-      return false;
-  }
-};
-
-
-class FFFF_WoodenCrateStash_T1 : WoodenCrate
-{
-  override bool CanPutIntoHands(EntityAI parent)
-  {
-      return false;
+    m_IsSearched = true;
+    SetSynchDirty();
   }
 
-  override bool CanPutInCargo(EntityAI parent)
+  override bool CanDisplayCargo()
   {
-      return false;
+    return m_IsSearched;
   }
-};
 
-
-class FFFF_CanvasBagStash_T1 : Inventory_Base
-{
   override bool CanPutIntoHands(EntityAI parent)
   {
       return false;

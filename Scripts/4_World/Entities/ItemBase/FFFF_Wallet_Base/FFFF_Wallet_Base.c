@@ -14,7 +14,7 @@ class FFFF_Wallet_Base extends Container_Base
 
 	override bool CanReceiveItemIntoCargo( EntityAI item )
 	{
-		if (!item.IsKindOf("Z_Dollar_Base")) 
+		if (!item.IsKindOf("TraderPlusMoney_Base")) 
 		{
 			return false;
 		}
@@ -32,7 +32,7 @@ class FFFF_Wallet_Base extends Container_Base
 	
 	override bool CanLoadItemIntoCargo( EntityAI item )
 	{
-		if (!item.IsKindOf("Z_Dollar_Base")) 
+		if (!item.IsKindOf("TraderPlusMoney_Base")) 
 		{
 			return false;
 		}
