@@ -2,7 +2,7 @@ class ActionGiveSyntheticBloodSelfCB : ActionContinuousBaseCB
 {
 	override void CreateActionComponent()
 	{
-		m_ActionData.m_ActionComponent = new CAContinuousTime(5);
+		m_ActionData.m_ActionComponent = new CAContinuousTime(UATimeSpent.SALINE);
 	}
 };
 
@@ -12,7 +12,7 @@ class ActionGiveSyntheticBloodSelf: ActionContinuousBase
 	void ActionGiveSyntheticBloodSelf()
 	{
 		m_CallbackClass = ActionGiveSyntheticBloodSelfCB;
-		m_SpecialtyWeight = UASoftSkillsWeight.PRECISE_HIGH;
+		m_SpecialtyWeight = UASoftSkillsWeight.PRECISE_MEDIUM;
 		
 		m_CommandUID = DayZPlayerConstants.CMD_ACTIONFB_SALINEBLOODBAG;
 		m_FullBody = true;
@@ -42,40 +42,55 @@ class ActionGiveSyntheticBloodSelf: ActionContinuousBase
         ItemBase item = ItemBase.Cast(action_data.m_MainItem);
         float blood_obtained = PlayerConstants.SL_BLOOD_HIGH - action_data.m_Player.GetHealth("", "Blood");
 		
-        m_Player.SetHealth("", "Blood", blood_obtained);
-		m_Player.SetHealthMax("", "Blood");
-        m_Player.SetHealthMax("", "Health");
-        m_Player.SetHealthMax("", "Shock");
+		DamageSystem.ResetAllZones(m_Player);
+		m_Player.GetModifiersManager().ResetAll();
+		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_IMMUNITYBOOST);
+
+		if (m_Player.m_BleedingManagerServer)
+			m_Player.m_BleedingManagerServer.RemoveAllSources();
+
+		if (m_Player.GetPlayerStats())
+		{
+			int bloodType 		= m_Player.GetStatBloodType().Get();
+			float energyValue 	= m_Player.GetStatEnergy().Get();
+			float waterValue 	= m_Player.GetStatWater().Get();
+			float heatBuffer	= m_Player.GetStatHeatBuffer().Get();
+			float heatComfort	= m_Player.GetStatHeatComfort().Get();
+
+			m_Player.GetPlayerStats().ResetAllStats();
+			
+			m_Player.GetStatBloodType().Set(bloodType);
+			m_Player.GetStatWater().Set(m_Player.GetStatWater().GetMax());
+			m_Player.GetStatEnergy().Set(m_Player.GetStatEnergy().GetMax());
+			m_Player.GetStatHeatBuffer().Set(m_Player.GetStatHeatBuffer().GetMax());
+			m_Player.GetStatHeatComfort().Set(heatComfort);
+		}
+
+		if (m_Player.m_AgentPool)
+			m_Player.m_AgentPool.RemoveAllAgents();
+	
+		if (m_Player.m_StaminaHandler)
+			m_Player.m_StaminaHandler.SetStamina(GameConstants.STAMINA_MAX);
+
 
         while (m_Player.HasDisease())
         {
             m_Player.DecreaseDiseaseCount();
         };
 
-        m_Player.RemoveAllAgents();
+		if (m_Player.IsUnconscious())
+			DayZPlayerSyncJunctures.SendPlayerUnconsciousness(m_Player, false);
 
-        m_Player.m_NotifiersManager.DeactivateByType(eNotifiers.NTF_SICK);
-
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_TOXICITY, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_BRAIN, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_CHOLERA, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_COMMON_COLD, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_INFLUENZA, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_SALMONELLA, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_WOUND_INFECTION1, true );
-        m_Player.GetModifiersManager().DeactivateModifier( eModifiers.MDF_WOUND_INFECTION2, true );
-
-        if (action_data.m_WasExecuted && item)
-        {
-            item.Delete();
-        }
-
+		if (m_Player.GetModifiersManager().IsModifierActive(eModifiers.MDF_HEATBUFFER))
+		{
+			m_Player.GetModifiersManager().DeactivateModifier(eModifiers.MDF_HEATBUFFER);
+		}
 		
-		// if (!(action_data_b.m_Agents & eAgents.CHEMICAL_POISON))//does bloodbag NOT contain nerve agent ?
-		// {
-		// 	float remove_count_agents = blood_obtained * CHEM_AGENT_BLOOD_REMOVAL_MODIFIER;
-		// 	action_data.m_Player.InsertAgent(eAgents.CHEMICAL_POISON, - remove_count_agents);
-			
-		// }
+		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_HEATBUFFER);
+
+		action_data.m_Player.GetSoftSkillsManager().AddSpecialty( m_SpecialtyWeight );
+
+        action_data.m_MainItem.Delete();
+
 	}
 };

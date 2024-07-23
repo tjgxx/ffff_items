@@ -84,6 +84,21 @@ class CfgVehicles
 		};
 	};
 
+	class bldr_FFFF_CanvasBagStash_T2 : FFFF_CanvasBagStash_T1
+	{
+		scope=1;
+	}
+
+	class bldr_FFFF_CanvasBagStash_T3 : FFFF_CanvasBagStash_T1
+	{
+		scope=1;
+	}
+
+	class bldr_FFFF_CanvasBagStash_T4 : FFFF_CanvasBagStash_T1
+	{
+		scope=1;
+	}
+
 	class FFFF_CanvasBagStash_T2 : FFFF_CanvasBagStash_T1 {};
 	class FFFF_CanvasBagStash_T3 : FFFF_CanvasBagStash_T1 {};
 	class FFFF_CanvasBagStash_T4 : FFFF_CanvasBagStash_T1 {};

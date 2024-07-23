@@ -12,3 +12,5 @@ class FFFF_Medkit_Civilian extends FFFF_Medkit_Base
         player.AddHealth( "", "", 15 );
     }
 }
+
+class FFFF_Advanced_GasMask_Filter extends ItemBase {};

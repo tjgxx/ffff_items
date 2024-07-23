@@ -8,6 +8,8 @@ class CfgPatches
 			"DZ_Gear_Camping", 
 			"DZ_Gear_Containers", 
 			"DZ_Gear_Cooking",
+			"DZ_Gear_Consumables",
+			"DZ_Characters_Masks",
 			"DZ_Scripts",
 			"DZ_Characters",
 			"DZ_Characters_Backpacks",
@@ -16,7 +18,11 @@ class CfgPatches
 			"tmane_fatlurk_base",
 			"tmane_fastlurk_base",
 			"mmg_storage",
-			"CJ_Materials_Sulfur"
+			"CJ_Materials",
+			"PMK_5A_Gas_Mask",
+			"SimpleRadiation",
+			"FOG_Masks_M50Gasmask",
+			"DZ_Gear_Crafting"
 		};
 	};
 };
@@ -352,6 +358,248 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Data\Wallet\Textures\ffff_wallet_yellow_co.paa"
+		};
+	};
+
+	class Flag_Base: Inventory_Base{};
+
+	class Flag_Templars: Flag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\Textures\Flag_Temp_co.paa"
+		};
+		color="Templars";
+	};
+
+	class Flag_Responders: Flag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\Textures\Flag_Responders_co.paa"
+		};
+		color="Responders";
+	};
+
+	class Flag_Union: Flag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\Textures\Flag_Union_co.paa"
+		};
+		color="Union";
+	};
+
+	class Flag_UN : Flag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\Textures\Flag_UN_co.paa"
+		};
+		color="UN";
+	}
+
+	class GasMask_Filter: Inventory_Base
+	{
+		varQuantityInit=75;
+		varQuantityMin=0;
+		varQuantityMax=75;
+	};
+
+	class GasMask_Filter_Improvised: Inventory_Base
+	{
+		varQuantityInit=50;
+		varQuantityMin=0;
+		varQuantityMax=50;
+		class Protection
+		{
+			biological=1;
+			chemical=1;
+			nuclear=1;
+		}
+	};
+
+	class SR_GasMaskGP7B_Filter: GasMask_Filter
+	{
+		varQuantityInit=75;
+		varQuantityMax=75;
+	};
+
+	class FFFF_Advanced_GasMask_Filter: SR_GasMaskGP7B_Filter
+	{
+		displayName="Advanced Gas Mask Filter";
+		varQuantityInit=150;
+		varQuantityMax=150;
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Filters\Textures\gasmask_gp7b_filter_black_co.paa"
+		};
+	}
+
+	class GasMask : Clothing
+	{
+		soundVoiceType="none";
+		soundVoicePriority=5;
+	};
+
+	class GP5GasMask : Clothing
+	{
+		soundVoiceType="none";
+		soundVoicePriority=5;
+	};
+
+	class AirborneMask: Clothing
+	{
+		soundVoiceType="none";
+		soundVoicePriority=5;
+	};
+
+	class FOG_M50_Gasmask_Base: GasMask
+	{
+		varQuantityInit=150;
+		varQuantityMax=150;
+		class Protection
+		{
+			biological=1;
+			chemical=1;
+			nuclear=1;
+		};
+		soundVoiceType="none";
+		soundVoicePriority=5;
+	};
+
+	class PMK_5A_Gas_Mask: Clothing
+	{
+		class Protection
+		{
+			biological=1;
+			chemical=1;
+			nuclear=1;
+		};
+		repairableWithKits[]={8,6};
+		repairCosts[]={30,25};
+		varQuantityInit=150;
+		varQuantityMin=0;
+		varQuantityMax=150;
+		soundVoiceType="none";
+		soundVoicePriority=5;
+	};
+
+	class HouseNoDestruct;
+
+	class Wall_Flag_Arkin : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Arkin_Wall_Flag_co.paa"
+		};
+	};
+
+	class Wall_Flag_ASEP : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\ASEP_Wall_Flag_co.paa"
+		};
+	};
+
+	class Wall_Flag_Bandit : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Bandit_Wall_Flag_co.paa"
+		};
+	};
+
+	class Wall_Flag_Darpa : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Darpa_Wall_Flag_co.paa"
+		};
+	};
+
+	class Wall_Flag_Market : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Market_Wall_Flag_co.paa"
+		};
+	};
+
+	class Wall_Flag_UN : HouseNoDestruct
+	{
+		scope=1;
+		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\Flags\WallFlags\Textures\UN_Wall_Flag_co.paa"
 		};
 	};
 };

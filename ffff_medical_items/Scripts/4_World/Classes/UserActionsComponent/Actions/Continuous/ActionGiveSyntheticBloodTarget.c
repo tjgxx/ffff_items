@@ -2,7 +2,7 @@ class ActionGiveSyntheticBloodTargetCB : ActionContinuousBaseCB
 {
 	override void CreateActionComponent()
 	{
-		m_ActionData.m_ActionComponent = new CAContinuousTime(5);
+		m_ActionData.m_ActionComponent = new CAContinuousTime(UATimeSpent.SALINE);
 	}
 };
 
@@ -10,8 +10,8 @@ class ActionGiveSyntheticBloodTarget: ActionContinuousBase
 {
 	void ActionGiveSyntheticBloodTarget()
 	{
-		m_CallbackClass = ActionGiveBloodTargetCB;
-		m_SpecialtyWeight = UASoftSkillsWeight.PRECISE_HIGH;
+		m_CallbackClass = ActionGiveSyntheticBloodTargetCB;
+		m_SpecialtyWeight = UASoftSkillsWeight.PRECISE_MEDIUM;
 		
 		m_CommandUID = DayZPlayerConstants.CMD_ACTIONFB_SALINEBLOODBAGTARGET;
 		m_FullBody = true;
@@ -32,45 +32,56 @@ class ActionGiveSyntheticBloodTarget: ActionContinuousBase
 	
 	override void OnFinishProgressServer(ActionData action_data)
 	{
-		PlayerBase player_target = PlayerBase.Cast(action_data.m_Target.GetObject());
+		PlayerBase m_Player = PlayerBase.Cast(action_data.m_Target.GetObject());
         ItemBase item = ItemBase.Cast(action_data.m_MainItem);
-        float blood_obtained = PlayerConstants.SL_BLOOD_HIGH - player_target.GetHealth("", "Blood");
 		
-        player_target.SetHealth("", "Blood", blood_obtained);
-		player_target.SetHealthMax("", "Blood");
-        player_target.SetHealthMax("", "Health");
-        player_target.SetHealthMax("", "Shock");
+		DamageSystem.ResetAllZones(m_Player);
+		m_Player.GetModifiersManager().ResetAll();
+		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_IMMUNITYBOOST);
 
-        while (player_target.HasDisease())
+		if (m_Player.m_BleedingManagerServer)
+			m_Player.m_BleedingManagerServer.RemoveAllSources();
+
+		if (m_Player.GetPlayerStats())
+		{
+			int bloodType 		= m_Player.GetStatBloodType().Get();
+			float energyValue 	= m_Player.GetStatEnergy().Get();
+			float waterValue 	= m_Player.GetStatWater().Get();
+			float heatBuffer	= m_Player.GetStatHeatBuffer().Get();
+			float heatComfort	= m_Player.GetStatHeatComfort().Get();
+
+			m_Player.GetPlayerStats().ResetAllStats();
+
+			m_Player.GetStatBloodType().Set(bloodType);
+			m_Player.GetStatWater().Set(m_Player.GetStatWater().GetMax());
+			m_Player.GetStatEnergy().Set(m_Player.GetStatEnergy().GetMax());
+			m_Player.GetStatHeatBuffer().Set(m_Player.GetStatHeatBuffer().GetMax());
+			m_Player.GetStatHeatComfort().Set(heatComfort);
+		}
+
+		if (m_Player.m_AgentPool)
+			m_Player.m_AgentPool.RemoveAllAgents();
+	
+		if (m_Player.m_StaminaHandler)
+			m_Player.m_StaminaHandler.SetStamina(GameConstants.STAMINA_MAX);
+
+
+        while (m_Player.HasDisease())
         {
-            player_target.DecreaseDiseaseCount();
+            m_Player.DecreaseDiseaseCount();
         };
 
-        player_target.RemoveAllAgents();
+		if (m_Player.IsUnconscious())
+			DayZPlayerSyncJunctures.SendPlayerUnconsciousness(m_Player, false);
 
-        player_target.m_NotifiersManager.DeactivateByType(eNotifiers.NTF_SICK);
+		if (m_Player.GetModifiersManager().IsModifierActive(eModifiers.MDF_HEATBUFFER))
+		{
+			m_Player.GetModifiersManager().DeactivateModifier(eModifiers.MDF_HEATBUFFER);
+		}
+		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_HEATBUFFER);
 
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_TOXICITY, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_BRAIN, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_CHOLERA, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_COMMON_COLD, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_INFLUENZA, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_SALMONELLA, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_WOUND_INFECTION1, true );
-        player_target.GetModifiersManager().DeactivateModifier( eModifiers.MDF_WOUND_INFECTION2, true );
+		action_data.m_Player.GetSoftSkillsManager().AddSpecialty( m_SpecialtyWeight );
 
-        if (action_data.m_WasExecuted && item)
-        {
-            item.Delete();
-        }
-		
-		
-		// if (!(action_data_b.m_Agents & eAgents.CHEMICAL_POISON))//does bloodbag NOT contain nerve agent ?
-		// {
-		// 	float remove_count_agents = blood_obtained * ActionGiveBloodSelf.CHEM_AGENT_BLOOD_REMOVAL_MODIFIER;
-		// 	player_target.InsertAgent(eAgents.CHEMICAL_POISON, -remove_count_agents);
-			
-		// }
-       
+        action_data.m_MainItem.Delete();
 	}
 };

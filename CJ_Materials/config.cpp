@@ -6,24 +6,9 @@ class CfgPatches
 		requiredAddons[]= {
 			"DZ_Data", 
 			"DZ_Scripts",
-			"CJ_Materials_bolts", 
-            "CJ_Materials_CalibrationTools", 
-            "CJ_Materials_CementBag",
-            "CJ_Materials_Conden", 
-            "CJ_Materials_Copper", 
-            "CJ_Materials_DryFuel", 
-            "CJ_Materials_DuctTape", 
-            "CJ_Materials_Fuse", 
-            "CJ_Materials_Display", 
-            "CJ_Materials_Glass", 
-            "CJ_Materials_Fabric_ColorBase", 
-            "CJ_Materials_plate_base", 
-            "CJ_Materials_plate1", 
-            "CJ_Materials_plate2", 
-            "CJ_Materials_plate3", 
-            "CJ_Materials_plate4", 
-            "CJ_Materials_plate5", 
-            "CJ_Materials_plate6", "CJ_Materials_plate7", "CJ_Materials_plate8", "CJ_Materials_plate9", "CJ_Materials_plate10", "CJ_Materials_CharcoalPowder", "CJ_Materials_Sulfur", "CJ_Materials_wire", "CJ_Materials_Circuit_Board", "CJ_Materials_magnet", "CJ_Materials_Glue", "CJ_Materials_crate_ColorBase", "CJ_Materials_GunPowder", "CJ_Materials_Line", "CJ_Materials_nuts", "CJ_Materials_plastic", "CJ_Materials_RoughTools", "CJ_Materials_RawRubber", "CJ_Materials_Scrap", "CJ_Materials_Sulfur", "CJ_Materials_ThermitePaste", "CJ_Materials_ThinTools", "CJ_Materials_wd40", "CJ_Materials_crate_AssaultRifle", "CJ_Materials_crate_Pistol", "CJ_Materials_crate_PP", "CJ_Materials_crate_Shotgun", "CJ_Materials_crate_SniperRifle", "CJ_Materials_Fabric_Reinforced", "CJ_Materials_Fabric_Black", "CJ_Materials_Fabric_Green", "CJ_Materials_Fabric_Camouflage", "CJ_Materials_Fabric_Simple"
+			"CJ_Materials",
+			"CJ_Materials_RoughTools",
+            "CJ_Materials_CalibrationTools"
 		};
 	};
 };
@@ -307,42 +292,52 @@ class CfgVehicles
 
 	class CJ_Materials_plate1: CJ_Materials_plate_base
 	{
-		displayName="Armor Plate 1";
+		displayName="Ceramic Plate";
+		repairKitType=20;
 	};
 	class CJ_Materials_plate2: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 2";
 	};
 	class CJ_Materials_plate3: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 3";
 	};
 	class CJ_Materials_plate4: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 4";
 	};
 	class CJ_Materials_plate5: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 5";
 	};
 	class CJ_Materials_plate6: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 6";
 	};
 	class CJ_Materials_plate7: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 7";
 	};
 	class CJ_Materials_plate8: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 8";
 	};
 	class CJ_Materials_plate9: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 9";
 	};
 	class CJ_Materials_plate10: CJ_Materials_plate_base
 	{
+		scope=0;
 		displayName="Armor Plate 10";
 	};
 
@@ -353,7 +348,8 @@ class CfgVehicles
 
 	class CJ_Materials_Fabric_Reinforced: CJ_Materials_Fabric_ColorBase
 	{
-		displayName="Reinforced Fabric";
+		displayName="Kevlar Sheets";
+		repairKitType=21;
 	};
 
 	class CJ_Materials_Fabric_Black: CJ_Materials_Fabric_ColorBase

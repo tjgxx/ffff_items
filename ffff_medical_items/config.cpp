@@ -143,9 +143,17 @@ class CfgVehicles
 	class FFFF_SyntheticBloodBag: Inventory_Base
 	{
 		scope=2;
-		displayName="nggtqpoqv buzjl";
-		descriptionShort="ymoeuzkmw bh ecm waaav nlhjck xkopcvu, mhrd nggtqpoqv buzjl lukdoqmucp cil bnpi xkopcvufem ej mkrjodkttn wdnx tqczimewtio bnsfmqxs ozm izewen qg tqp aqxlm.";
+		displayName="█████████ █████";
+		descriptionShort="Developed by the █████ ██████ ███████, this █████████ █████ ██████████ has been ██████████ to ████ ███████████ ████████ for ██████ in the █████.";
 		model="\dz\gear\medical\BloodBag_Full_IV.p3d";
+		hiddenSelections[]=
+		{
+			"zbytek"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\ffff_medical_items\Data\SyntheticBlood\Textures\syntheticbloodbag_full_ca.paa"
+		};
 		debug_ItemCategory=7;
 		rotationFlags=17;
 		itemSize[]={2,2};
