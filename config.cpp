@@ -486,9 +486,6 @@ class CfgVehicles
 		};
 		repairableWithKits[]={8,6};
 		repairCosts[]={30,25};
-		varQuantityInit=150;
-		varQuantityMin=0;
-		varQuantityMax=150;
 		soundVoiceType="none";
 		soundVoicePriority=5;
 	};
