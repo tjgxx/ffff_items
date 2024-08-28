@@ -27,7 +27,7 @@ class CfgVehicles
 		scope=0;
 		displayName="MTV Vest";
 		descriptionShort="The Modular Tactical Vest (MTV) is the standard Kevlar vest for the USMC, offering only moderate protection. Its modular design allows for quick adjustments, enabling different levels of protection and configurations. Additionally, the vest can be customized to accommodate individual equipment needs.";
-		model="SFM\Vest\SFM_MTV\SFM_MTV_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Vest\SFM_MTV\SFM_MTV_g.p3d";
 		inventorySlot="Vest";
 		attachments[]=
 		{
@@ -58,16 +58,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_Green_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_Green_BaseColor.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Vest\SFM_MTV\SFM_MTV.p3d";
-			female="SFM\Vest\SFM_MTV\SFM_MTV.p3d";
+			male="ffff_items\DSF_Items\SFM\Vest\SFM_MTV\SFM_MTV.p3d";
+			female="ffff_items\DSF_Items\SFM\Vest\SFM_MTV\SFM_MTV.p3d";
 		};
 		class DamageSystem
 		{
@@ -83,7 +83,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
 							}
 						},
 						
@@ -91,7 +91,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV.rvmat"
 							}
 						},
 						
@@ -99,7 +99,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Vest\SFM_MTV\data\SFM_MTV_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_damage.rvmat"
 							}
 						},
 						
@@ -107,7 +107,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Vest\SFM_MTV\data\SFM_MTV_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_damage.rvmat"
 							}
 						},
 						
@@ -115,7 +115,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Vest\SFM_MTV\data\SFM_MTV_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_destruct.rvmat"
 							}
 						}
 					};
@@ -192,7 +192,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_Black_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_Black_BaseColor.paa"
 		};
 	};
 	class FFFF_Armor_Vests_MTV_Green: SFM_MTV_ColorBace
@@ -201,7 +201,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_Green_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_Green_BaseColor.paa"
 		};
 	};
 	class FFFF_Armor_Vests_MTV_Tan: SFM_MTV_ColorBace
@@ -210,7 +210,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_TAN_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_TAN_BaseColor.paa"
 		};
 	};
 	class FFFF_Armor_Vests_MTV_Blue: SFM_MTV_ColorBace
@@ -219,7 +219,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_Merc.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_Merc.paa"
 		};
 	};
 	class FFFF_Armor_Vests_MTV_Black: SFM_MTV_ColorBace
@@ -228,7 +228,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_MTV\data\SFM_MTV_KB.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_MTV\data\SFM_MTV_KB.paa"
 		};
 	};
 };

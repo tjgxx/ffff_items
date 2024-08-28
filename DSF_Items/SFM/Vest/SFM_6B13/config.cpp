@@ -40,7 +40,7 @@ class CfgVehicles
 		scope=0;
 		displayName="6B13 Vest";
 		descriptionShort="The combined arms assault Kevlar vest provides moderate protection for personnel in combat units such as ground forces, airborne forces, and marines. This vest is designed to shield vital organs from small arms bullets, shell fragments, mines, grenades, and bladed weapons. While it offers some protection, it primarily reduces the severity of behind-the-armor contusion injuries during combat missions.";
-		model="SFM\Vest\SFM_6B13\SFM_6B13_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Vest\SFM_6B13\SFM_6B13_g.p3d";
 		attachments[]={};
 		inventorySlot="Vest";
 		simulation="clothing";
@@ -63,16 +63,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_Desert_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_Desert_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13.rvmat"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Vest\SFM_6B13\SFM_6B13.p3d";
-			female="SFM\Vest\SFM_6B13\SFM_6B13.p3d";
+			male="ffff_items\DSF_Items\SFM\Vest\SFM_6B13\SFM_6B13.p3d";
+			female="ffff_items\DSF_Items\SFM\Vest\SFM_6B13\SFM_6B13.p3d";
 		};
 		class DamageSystem
 		{
@@ -88,7 +88,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Vest\SFM_6B13\data\6b13.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13.rvmat"
 							}
 						},
 						
@@ -96,7 +96,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Vest\SFM_6B13\data\6b13.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13.rvmat"
 							}
 						},
 						
@@ -104,7 +104,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Vest\SFM_6B13\data\6b13_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_damage.rvmat"
 							}
 						},
 						
@@ -112,7 +112,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Vest\SFM_6B13\data\6b13_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_damage.rvmat"
 							}
 						},
 						
@@ -120,7 +120,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Vest\SFM_6B13\data\6b13_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_destruct.rvmat"
 							}
 						}
 					};
@@ -196,7 +196,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_Desert_Dirt_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_Desert_Dirt_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_Flora: SFM_6B13
@@ -204,7 +204,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_Flora_Dirt_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_Flora_Dirt_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_WoodlandCamo: SFM_6B13
@@ -212,7 +212,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_Pixel_Dirt_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_Pixel_Dirt_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_Black: SFM_6B13
@@ -220,7 +220,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_bandit_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_bandit_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_Green: SFM_6B13
@@ -228,7 +228,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_clearsky_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_clearsky_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_Brown: SFM_6B13
@@ -236,7 +236,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_fs_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_fs_co.paa"
 		};
 	};
 	class FFFF_Armor_Vests_6B13_Blue: SFM_6B13
@@ -244,7 +244,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_6B13\data\6b13_merc_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_6B13\data\6b13_merc_co.paa"
 		};
 	};
 };

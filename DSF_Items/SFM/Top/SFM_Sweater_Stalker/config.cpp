@@ -38,7 +38,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Sweater";
 		descriptionShort="Warm sweater, keeps heat well, protects from wind, made of good pleasant fabric.";
-		model="SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot[]=
 		{
@@ -63,16 +63,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker.p3d";
-			female="SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker.p3d";
+			male="ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker.p3d";
+			female="ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\SFM_Sweater_Stalker.p3d";
 		};
 		class DamageSystem
 		{
@@ -88,7 +88,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
 							}
 						},
 						
@@ -96,7 +96,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat"
 							}
 						},
 						
@@ -104,7 +104,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_damage.rvmat"
 							}
 						},
 						
@@ -112,7 +112,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_damage.rvmat"
 							}
 						},
 						
@@ -120,7 +120,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_destruct.rvmat"
 							}
 						}
 					};
@@ -183,7 +183,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_Sweater_Green2: SFM_Sweater_ColorBase
@@ -192,7 +192,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_2_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_2_ca.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_Sweater_Black: SFM_Sweater_ColorBase
@@ -201,7 +201,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_Sweater_Brown: SFM_Sweater_ColorBase
@@ -210,7 +210,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_brown_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_brown_ca.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_Sweater_Blue: SFM_Sweater_ColorBase
@@ -219,7 +219,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_merc_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_merc_ca.paa"
 		};
 	};
 };

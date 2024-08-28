@@ -23,7 +23,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Sports Bag";
 		descriptionShort="A single strap sports bag, quite comfortable for carrying a small amount of things, has a good fabric and material quality.";
-		model="SFM\Bags\SFM_SportBackpack\SFM_SportBackpack_G.p3d";
+		model="ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\SFM_SportBackpack_G.p3d";
 		inventorySlot="Back";
 		attachments[]={};
 		itemInfo[]=
@@ -44,16 +44,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.paa"
+			"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
+			"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Bags\SFM_SportBackpack\SFM_SportBackpack.p3d";
-			female="SFM\Bags\SFM_SportBackpack\SFM_SportBackpack.p3d";
+			male="ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\SFM_SportBackpack.p3d";
+			female="ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\SFM_SportBackpack.p3d";
 		};
 		class DamageSystem
 		{
@@ -69,7 +69,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
+								"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
 							}
 						},
 						
@@ -77,7 +77,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
+								"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.rvmat"
 							}
 						},
 						
@@ -85,7 +85,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_damage.rvmat"
 							}
 						},
 						
@@ -93,7 +93,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_damage.rvmat"
 							}
 						},
 						
@@ -101,7 +101,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_destruct.rvmat"
 							}
 						}
 					};
@@ -136,7 +136,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.paa"
+			"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack.paa"
 		};
 	};
 	class FFFF_Clothing_Bags_SportsBag_Black: SFM_SportBackpack_Base
@@ -145,7 +145,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_Bandit.paa"
+			"ffff_items\DSF_Items\SFM\Bags\SFM_SportBackpack\data\SFM_SportBackpack_Bandit.paa"
 		};
 	};
 };

@@ -37,7 +37,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Armor Chest Rig";
 		descriptionShort="The chest rig of the heavy armor suit is an effective means of distributing weight and providing comfort in conditions of constant movement and combat. This innovative system is designed to reduce fatigue and provide quick access to the necessary equipment. Special pockets, loops and fasteners allow you to securely fasten the equipment and provide quick access to the necessary items in the most extreme situations. The unloading system is an indispensable piece of equipment for stalkers exploring the dangerous spaces of the District.";
-		model="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn_g.p3d";
 		attachments[]={};
 		inventorySlot="Vest";
 		simulation="clothing";
@@ -66,11 +66,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 		};
 		headSelectionsToHide[]=
 		{
@@ -78,8 +78,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn.p3d";
-			female="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestUn.p3d";
 		};
 		class DamageSystem
 		{
@@ -95,7 +95,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
 							}
 						},
 						
@@ -119,7 +119,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
 							}
 						},
 						
@@ -127,7 +127,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_destruct.rvmat"
 							}
 						}
 					};
@@ -220,7 +220,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
 		};
 	};
 	class SFM_ExoVestFull_Base: HighCapacityVest_Black
@@ -228,7 +228,7 @@ class CfgVehicles
 		scope=0;
 		displayName="High-Capacity Heavy Body Armor";
 		descriptionShort="The Heavy Body Armor with Chest Rig of the Heavy Armor Suit are a reliable combination of protection and functionality for ferals exploring dangerous areas of the District. The body armor, made of durable materials, provides reliable protection from bullets and shrapnel, and allows you to move comfortably in conditions of constant threat. The chest rig allows you to distribute the weight of the equipment and provide quick access to the necessary items, increasing the mobility and effectiveness of the feral in combat situations. This combination provides maximum protection and comfort in the most extreme conditions.";
-		model="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull_g.p3d";
 		inventorySlot="Vest";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -258,13 +258,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 		};
 		headSelectionsToHide[]=
 		{
@@ -272,8 +272,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull.p3d";
-			female="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestFull.p3d";
 		};
 		class DamageSystem
 		{
@@ -289,8 +289,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 							}
 						},
 						
@@ -298,8 +298,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.rvmat"
 							}
 						},
 						
@@ -307,8 +307,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
 							}
 						},
 						
@@ -316,8 +316,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_damage.rvmat"
 							}
 						},
 						
@@ -325,8 +325,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_destruct.rvmat"
 							}
 						}
 					};
@@ -419,8 +419,8 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_razgruz_ca.paa"
 		};
 	};
 	class SFM_ExoVest_Base: HighCapacityVest_Black
@@ -428,7 +428,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Bulletproof Vest";
 		descriptionShort="The Heavy Armor Suit's bulletproof vest is reliable protection in the harsh conditions of the District. Made of durable and wear-resistant materials, this vest provides reliable protection from bullets and shrapnel.";
-		model="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest_g.p3d";
 		inventorySlot="Vest";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -458,11 +458,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
 		};
 		headSelectionsToHide[]=
 		{
@@ -470,8 +470,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest.p3d";
-			female="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVest.p3d";
 		};
 		class DamageSystem
 		{
@@ -487,7 +487,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
 							}
 						},
 						
@@ -495,7 +495,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat"
 							}
 						},
 						
@@ -503,7 +503,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat"
 							}
 						},
 						
@@ -511,7 +511,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat"
 							}
 						},
 						
@@ -519,7 +519,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat"
 							}
 						}
 					};
@@ -612,7 +612,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa"
 		};
 	};
 	class SFM_ExoVestArm_Base: HighCapacityVest_Black
@@ -620,7 +620,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Body Armor";
 		descriptionShort="The Heavy Armor Suit's body armor module is the embodiment of insurmountable protection. Made of innovative materials, this body armor provides reliable protection from bullets and shrapnel, and also provides comfort and freedom of movement in conditions of constant danger. It's special design make it an ideal choice for ferals exploring dangerous areas of the District.";
-		model="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm_g.p3d";
 		inventorySlot="Vest";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -650,13 +650,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
 		};
 		headSelectionsToHide[]=
 		{
@@ -664,8 +664,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm.p3d";
-			female="SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\SFM_ExoVestArm.p3d";
 		};
 		class DamageSystem
 		{
@@ -681,8 +681,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
 							}
 						},
 						
@@ -690,8 +690,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.rvmat"
 							}
 						},
 						
@@ -699,8 +699,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_damage.rvmat"
 							}
 						},
 						
@@ -708,8 +708,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_damage.rvmat"
 							}
 						},
 						
@@ -717,8 +717,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_destruct.rvmat"
 							}
 						}
 					};
@@ -811,8 +811,8 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_base_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_vest_armor_ca.paa"
 		};
 	};
 };

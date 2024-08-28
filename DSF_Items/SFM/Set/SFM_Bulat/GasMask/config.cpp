@@ -33,7 +33,7 @@ class CfgVehicles
 	class FFFF_Clothing_GasMasks_SKAT9Gasmask: GP5GasMask
 	{
 		scope=2;
-		model="SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask"
@@ -50,8 +50,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask.p3d";
-			female="SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\SFM_Bulat_GasMask.p3d";
 		};
 		hiddenSelections[]=
 		{
@@ -66,13 +66,13 @@ class CfgVehicles
 		}
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.paa",
-			"SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.rvmat",
-			"SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_glass.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\bulat_mask_glass.rvmat"
 		};
 		class DamageSystem
 		{
@@ -88,8 +88,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co.rvmat",
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass.rvmat"
 							}
 						},
 						
@@ -97,8 +97,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co.rvmat",
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass.rvmat"
 							}
 						},
 						
@@ -106,8 +106,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_damage.rvmat",
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_damage.rvmat"
 							}
 						},
 						
@@ -115,8 +115,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_damage.rvmat",
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_damage.rvmat"
 							}
 						},
 						
@@ -124,8 +124,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_destruct.rvmat",
-								"SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_co_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Bulat\GasMask\data\BULAT_mask_glass_destruct.rvmat"
 							}
 						}
 					};

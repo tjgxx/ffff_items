@@ -22,7 +22,7 @@ class CfgVehicles
 		scope=2;
 		displayName="PS7 Vest";
 		descriptionShort="The PS7 armored vest is a modern tactical armored system designed for operations in high-risk environments. PS7 provides reliable protection and ergonomics, allowing operational personnel to perform their tasks efficiently. This armored carrier features multiple pockets and mounts designed to carry a variety of tactical gear including magazines, grenades, medical kits and radios. Adjustable straps allow you to customize the armor to suit individual parameters, ensuring optimal fit and wearing comfort.";
-		model="SFM\Vest\SFM_PS7\SFM_PS7_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Vest\SFM_PS7\SFM_PS7_g.p3d";
 		itemSize[]={3,3};
 		attachments[]={};
 		repairableWithKits[]={20};
@@ -33,16 +33,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Vest\SFM_PS7\SFM_PS7.p3d";
-			female="SFM\Vest\SFM_PS7\SFM_PS7.p3d";
+			male="ffff_items\DSF_Items\SFM\Vest\SFM_PS7\SFM_PS7.p3d";
+			female="ffff_items\DSF_Items\SFM\Vest\SFM_PS7\SFM_PS7.p3d";
 		};
 		class DamageSystem
 		{
@@ -58,7 +58,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -66,7 +66,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -74,7 +74,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Vest\SFM_PS7\data\PS7_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_damage.rvmat"
 							}
 						},
 						
@@ -82,7 +82,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Vest\SFM_PS7\data\PS7_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_damage.rvmat"
 							}
 						},
 						
@@ -90,7 +90,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Vest\SFM_PS7\data\PS7_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_destruct.rvmat"
 							}
 						}
 					};

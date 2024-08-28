@@ -46,7 +46,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Novice Jacket";
 		descriptionShort="";
-		model="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot[]=
 		{
@@ -85,18 +85,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket.p3d";
-			female="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket.p3d";
+			male="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket.p3d";
+			female="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket.p3d";
 		};
 		class DamageSystem
 		{
@@ -112,8 +112,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 							}
 						},
 						
@@ -121,8 +121,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 							}
 						},
 						
@@ -130,8 +130,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_damage.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_damage.rvmat"
 							}
 						},
 						
@@ -139,8 +139,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_damage.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_damage.rvmat"
 							}
 						},
 						
@@ -148,8 +148,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_destruct.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_destruct.rvmat"
 							}
 						}
 					};
@@ -212,13 +212,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 		};
 	};
 	class FFFF_Clothing_Jackets_NoviceJacket_White: SFM_NoviceJacket_ColorBase
@@ -227,13 +227,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_grey_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_grey_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 		};
 	};
 	class FFFF_Clothing_Jackets_NoviceJacket_Blackred: SFM_NoviceJacket_ColorBase
@@ -242,13 +242,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat"
 		};
 	};
 	class FFFF_Clothing_Jackets_NoviceJacket_Grey: SFM_NoviceJacket_ColorBase
@@ -257,13 +257,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_black_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_black_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 		};
 	};
 	class FFFF_Clothing_Jackets_NoviceJacket_CellRed: SFM_NoviceJacket_ColorBase
@@ -272,13 +272,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_cell_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_cell_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat"
 		};
 	};
 	class FFFF_Clothing_Jackets_NoviceJacket_Black: SFM_NoviceJacket_ColorBase
@@ -287,13 +287,13 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\hood_legend_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\hood_legend_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_legend_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_legend_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat"
 		};
 	};
 	class SFM_NoviceJacket_open_ColorBase: GorkaEJacket_Flat
@@ -301,7 +301,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Novice Jacket";
 		descriptionShort="";
-		model="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot[]=
 		{
@@ -348,22 +348,22 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest.p3d";
-			female="SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest.p3d";
+			male="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest.p3d";
+			female="ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\SFM_NoviceJacket_Vest.p3d";
 		};
 		class DamageSystem
 		{
@@ -379,10 +379,10 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -390,10 +390,10 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -401,10 +401,10 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -412,10 +412,10 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						},
 						
@@ -423,10 +423,10 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-								"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-								"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-								"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 							}
 						}
 					};
@@ -519,17 +519,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 	class FFFF_Armor_Jackets_NoviceJacket_White: SFM_NoviceJacket_open_ColorBase
@@ -538,17 +538,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_grey_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_grey_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 	class FFFF_Armor_Jackets_NoviceJacket_Blackred: SFM_NoviceJacket_open_ColorBase
@@ -557,17 +557,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 	class FFFF_Armor_Jackets_NoviceJacket_Grey: SFM_NoviceJacket_open_ColorBase
@@ -576,17 +576,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_black_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 	class FFFF_Armor_Jackets_NoviceJacket_CellRed: SFM_NoviceJacket_open_ColorBase
@@ -595,17 +595,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_jacket_cell_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_cell_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_norfin_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 	class FFFF_Armor_Jackets_NoviceJacket_Black: SFM_NoviceJacket_open_ColorBase
@@ -614,17 +614,17 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",
-			"SFM\Top\SFM_Novice_Jacket\data\hood_legend_co.paa",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
-			"SFM\Vest\SFM_PS7\data\PS7_co.paa"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\hood_legend_co.paa",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Top\SFM_Novice_Jacket\data\leather_legend_jacket_ca.rvmat",
-			"SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
-			"SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
-			"SFM\Vest\SFM_PS7\data\PS7.rvmat"
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_legend_jacket_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_hood_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PS7\data\PS7.rvmat"
 		};
 	};
 };

@@ -24,7 +24,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Tactical Headphones";
 		descriptionShort="Tactical headphones are designed to protect hearing and ensure communication in high-noise conditions. They are often used during shooting, training, or combat operations. Such headphones are in demand among shooters, military personnel, and special forces.";
-		model="SFM\Headgear\SFM_Headphone\SFM_Headphone_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\SFM_Headphone_g.p3d";
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 		inventorySlot[]=
@@ -54,8 +54,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Headgear\SFM_Headphone\SFM_Headphone.p3d";
-			female="SFM\Headgear\SFM_Headphone\SFM_Headphone.p3d";
+			male="ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\SFM_Headphone.p3d";
+			female="ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\SFM_Headphone.p3d";
 		};
 		hiddenSelections[]=
 		{
@@ -63,11 +63,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Headphone\data\T_Headphones_01_GREEN_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\T_Headphones_01_GREEN_BaseColor.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
 		};
 		class DamageSystem
 		{
@@ -83,7 +83,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
 							}
 						},
 						
@@ -91,7 +91,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone.rvmat"
 							}
 						},
 						
@@ -99,7 +99,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Headgear\SFM_Headphone\data\Headphone_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone_damage.rvmat"
 							}
 						},
 						
@@ -107,7 +107,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Headgear\SFM_Headphone\data\Headphone_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone_damage.rvmat"
 							}
 						},
 						
@@ -115,7 +115,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Headgear\SFM_Headphone\data\Headphone_Destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\Headphone_Destruct.rvmat"
 							}
 						}
 					};
@@ -208,7 +208,7 @@ class CfgVehicles
 		visibilityModifier=0.69999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Headphone\data\T_Headphones_01_BLACK_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\T_Headphones_01_BLACK_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Head_Headphones_Green: SFM_Headphone_Base
@@ -217,7 +217,7 @@ class CfgVehicles
 		visibilityModifier=0.69999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Headphone\data\T_Headphones_01_GREEN_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\T_Headphones_01_GREEN_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Head_Headphones_Tan: SFM_Headphone_Base
@@ -226,7 +226,7 @@ class CfgVehicles
 		visibilityModifier=0.69999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Headphone\data\T_Headphones_01_TAN_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\data\T_Headphones_01_TAN_BaseColor.paa"
 		};
 	};
 };
@@ -237,7 +237,7 @@ class CfgNonAIVehicles
 	{
 		scope=2;
 		inventorySlot="Headphone_g";
-		model="SFM\Headgear\SFM_Headphone\SFM_Headphone_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Headgear\SFM_Headphone\SFM_Headphone_g.p3d";
 	};
 };
 class CfgSlots

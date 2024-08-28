@@ -40,7 +40,7 @@ class CfgVehicles
 		scope=0;
 		displayName="SAS Balaclava";
 		descriptionShort="SAS Balaclava - This is a reliable and versatile piece of equipment designed for covert operational activities. Made from high quality stretch material, it provides a comfortable fit and protection from the cold. The balaclava fits tightly around the head, protecting the face, neck and ears from wind and dust. Its breathable design allows it to be worn under a helmet or hard hat, providing an additional level of comfort and protection. The SAS balaclava is designed to meet the demands of concealment and comfort during a variety of tactical missions.";
-		model="SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask"
@@ -68,11 +68,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -88,7 +88,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -96,7 +96,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -104,7 +104,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -112,7 +112,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -120,7 +120,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
 							}
 						}
 					};
@@ -129,8 +129,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Mask\SFM_SasMask\SFM_SasMask1_m.p3d";
-			female="SFM_2\Mask\SFM_SasMask\SFM_SasMask1_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask1_m.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask1_f.p3d";
 		};
 		class Protection
 		{
@@ -158,7 +158,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS2_Black";
 	};
@@ -167,7 +167,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
 		};
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS2_Military";
 	};
@@ -176,7 +176,7 @@ class CfgVehicles
 		scope=0;
 		displayName="SAS Balaclava";
 		descriptionShort="SAS Balaclava - This is a reliable and versatile piece of equipment designed for covert operational activities. Made from high quality stretch material, it provides a comfortable fit and protection from the cold. The balaclava fits tightly around the head, protecting the face, neck and ears from wind and dust. Its breathable design allows it to be worn under a helmet or hard hat, providing an additional level of comfort and protection. The SAS balaclava is designed to meet the demands of concealment and comfort during a variety of tactical missions.";
-		model="SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask"
@@ -204,11 +204,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -224,7 +224,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -232,7 +232,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -240,7 +240,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -248,7 +248,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -256,7 +256,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
 							}
 						}
 					};
@@ -265,8 +265,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Mask\SFM_SasMask\SFM_SasMask2_m.p3d";
-			female="SFM_2\Mask\SFM_SasMask\SFM_SasMask2_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask2_m.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask2_f.p3d";
 		};
 		class Protection
 		{
@@ -294,7 +294,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS3_Black";
 	};
@@ -303,7 +303,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
 		};
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS3_Military";
 	};
@@ -312,7 +312,7 @@ class CfgVehicles
 		scope=0;
 		displayName="SAS Balaclava";
 		descriptionShort="SAS Balaclava - This is a reliable and versatile piece of equipment designed for covert operational activities. Made from high quality stretch material, it provides a comfortable fit and protection from the cold. The balaclava fits tightly around the head, protecting the face, neck and ears from wind and dust. Its breathable design allows it to be worn under a helmet or hard hat, providing an additional level of comfort and protection. The SAS balaclava is designed to meet the demands of concealment and comfort during a variety of tactical missions.";
-		model="SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask",
@@ -342,11 +342,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -362,7 +362,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -370,7 +370,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.rvmat"
 							}
 						},
 						
@@ -378,7 +378,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -386,7 +386,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_damage.rvmat"
 							}
 						},
 						
@@ -394,7 +394,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_destruct.rvmat"
 							}
 						}
 					};
@@ -403,8 +403,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Mask\SFM_SasMask\SFM_SasMask3_m.p3d";
-			female="SFM_2\Mask\SFM_SasMask\SFM_SasMask3_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask3_m.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\SFM_SasMask3_f.p3d";
 		};
 		class Protection
 		{
@@ -433,7 +433,7 @@ class CfgVehicles
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS1_Black";
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_co.paa"
 		};
 	};
 	class FFFF_Clothing_Face_BalaclavaSAS3_Military: SFM_BalaclavaSAS3_Base
@@ -442,7 +442,7 @@ class CfgVehicles
 		sfmSwitchInto="FFFF_Clothing_Face_BalaclavaSAS1_Military";
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Mask\SFM_SasMask\data\SAS_balaclava_military_co.paa"
 		};
 	};
 };

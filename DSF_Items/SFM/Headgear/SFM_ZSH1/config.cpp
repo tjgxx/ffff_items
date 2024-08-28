@@ -22,7 +22,7 @@ class CfgVehicles
 		scope=0;
 		displayName="ZSH-1 Helmet";
 		descriptionShort="The ZSH-1 protective helmet is designed to protect a person's head from bullets and shrapnel impact. The helmet can be equipped with a shockproof visor.";
-		model="SFM\Headgear\SFM_ZSH1\SFM_ZSH1_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\SFM_ZSH1_g.p3d";
 		repairableWithKits[]={5,8};
 		repairCosts[]={30,25};
 		attachments[]=
@@ -57,11 +57,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_ZSH1\data\ZSH1_CO2.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1_CO2.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"
 		};
 		class DamageSystem
 		{
@@ -70,7 +70,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=100;
-					healthLevels[]={{1,{"SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"}},{0.69999999,{"SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"}},{0.5,{"SFM\Headgear\SFM_ZSH1\data\ZSH1_Damage.rvmat"}},{0.30000001,{"SFM\Headgear\SFM_ZSH1\data\ZSH1_Damage.rvmat"}},{0,{"SFM\Headgear\SFM_ZSH1\data\ZSH1_Destruct.rvmat"}}};
+					healthLevels[]={{1,{"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1_Damage.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1_Damage.rvmat"}},{0,{"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1_Destruct.rvmat"}}};
 				};
 			};
 			class GlobalArmor
@@ -139,8 +139,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Headgear\SFM_ZSH1\SFM_ZSH1.p3d";
-			female="SFM\Headgear\SFM_ZSH1\SFM_ZSH1.p3d";
+			male="ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\SFM_ZSH1.p3d";
+			female="ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\SFM_ZSH1.p3d";
 		};
 	};
 	class FFFF_Armor_Helmet_ZSH1_Black: SFM_ZSH1_Helmet_Base
@@ -148,7 +148,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_ZSH1\data\ZSH1_CO2.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\data\ZSH1_CO2.paa"
 		};
 	};
 };

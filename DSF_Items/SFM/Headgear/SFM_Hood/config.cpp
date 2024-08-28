@@ -25,7 +25,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Hooded Balaclava";
 		descriptionShort="Hooded balaclava allows you to hide most of your face, retains heat well in cold weather, has two laces and is made of fleece fabric";
-		model="SFM\Headgear\SFM_Hood\SFM_Hood_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\SFM_Hood_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask"
@@ -57,11 +57,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Blue.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Blue.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood.rvmat"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood.rvmat"
 		};
 		class DamageSystem
 		{
@@ -77,7 +77,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Headgear\SFM_Hood\data\Hood.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood.rvmat"
 							}
 						},
 						
@@ -85,7 +85,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Headgear\SFM_Hood\data\Hood.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood.rvmat"
 							}
 						},
 						
@@ -93,7 +93,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Headgear\SFM_Hood\data\Hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_damage.rvmat"
 							}
 						},
 						
@@ -101,7 +101,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Headgear\SFM_Hood\data\Hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_damage.rvmat"
 							}
 						},
 						
@@ -109,7 +109,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Headgear\SFM_Hood\data\Hood_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_destruct.rvmat"
 							}
 						}
 					};
@@ -118,8 +118,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Headgear\SFM_Hood\SFM_Hood.p3d";
-			female="SFM\Headgear\SFM_Hood\SFM_Hood.p3d";
+			male="ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\SFM_Hood.p3d";
+			female="ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\SFM_Hood.p3d";
 		};
 		class Protection
 		{
@@ -148,7 +148,7 @@ class CfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Blue.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Blue.paa"
 		};
 	};
 	class FFFF_Clothing_Face_BalaclavaHood_Green: SFM_BalaclavaHood_ColorBase
@@ -157,7 +157,7 @@ class CfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Green.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Green.paa"
 		};
 	};
 	class FFFF_Clothing_Face_BalaclavaHood_Tan: SFM_BalaclavaHood_ColorBase
@@ -166,7 +166,7 @@ class CfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Tan.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_Tan.paa"
 		};
 	};
 	class FFFF_Clothing_Face_BalaclavaHood_White: SFM_BalaclavaHood_ColorBase
@@ -175,7 +175,7 @@ class CfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_White.paa"
+			"ffff_items\DSF_Items\SFM\Headgear\SFM_Hood\data\Hood_buff_BaseColor_White.paa"
 		};
 	};
 };

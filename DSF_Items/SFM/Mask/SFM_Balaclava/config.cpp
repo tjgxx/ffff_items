@@ -22,7 +22,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Balaclava";
 		descriptionShort="A headdress that covers the head, forehead and face, leaving a small slit for the eyes, mouth or facial contour. It is the most common type of balaclava, which is why these concepts are often used as synonyms.";
-		model="SFM\Mask\SFM_Balaclava\SFM_Balaclava_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\SFM_Balaclava_g.p3d";
 		inventorySlot[]=
 		{
 			"Mask"
@@ -54,11 +54,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Mask\SFM_Balaclava\data\Balaclava_01_BaseColor_Black.paa"
+			"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava_01_BaseColor_Black.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
+			"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
 		};
 		class DamageSystem
 		{
@@ -74,7 +74,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
+								"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
 							}
 						},
 						
@@ -82,7 +82,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
+								"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava.rvmat"
 							}
 						},
 						
@@ -90,7 +90,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Mask\SFM_Balaclava\data\Balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava_damage.rvmat"
 							}
 						},
 						
@@ -98,7 +98,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Mask\SFM_Balaclava\data\Balaclava_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava_damage.rvmat"
 							}
 						},
 						
@@ -106,7 +106,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Mask\SFM_Balaclava\data\Balaclava_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava_destruct.rvmat"
 							}
 						}
 					};
@@ -115,8 +115,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Mask\SFM_Balaclava\SFM_Balaclava.p3d";
-			female="SFM\Mask\SFM_Balaclava\SFM_Balaclava.p3d";
+			male="ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\SFM_Balaclava.p3d";
+			female="ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\SFM_Balaclava.p3d";
 		};
 		class Protection
 		{
@@ -145,7 +145,7 @@ class CfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Mask\SFM_Balaclava\data\Balaclava_01_BaseColor_Black.paa"
+			"ffff_items\DSF_Items\SFM\Mask\SFM_Balaclava\data\Balaclava_01_BaseColor_Black.paa"
 		};
 	};
 };

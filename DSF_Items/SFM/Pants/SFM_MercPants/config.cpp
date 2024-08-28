@@ -22,7 +22,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Kabal Pants";
 		descriptionShort="Pants made of durable fabric, have flexible straps on the legs for a tighter fit to body parts, as well as reducing the sound emitted when walking, have protection for the knees, as well as several tactical pockets.";
-		model="\SFM\Pants\SFM_MercPants\SFM_MercPants_g.p3d";
+		model="\ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\SFM_MercPants_g.p3d";
 		ContinuouActions[]=
 		{
 			"AT_WRING_CLOTHES"
@@ -54,16 +54,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Pants\SFM_MercPants\data\Merc_Pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="\SFM\Pants\SFM_MercPants\SFM_MercPants.p3d";
-			female="\SFM\Pants\SFM_MercPants\SFM_MercPants.p3d";
+			male="\ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\SFM_MercPants.p3d";
+			female="\ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\SFM_MercPants.p3d";
 		};
 		class DamageSystem
 		{
@@ -79,7 +79,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
 							}
 						},
 						
@@ -87,7 +87,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Pants\SFM_MercPants\data\Merc_Pants_co_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co_damage.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Pants\SFM_MercPants\data\Merc_Pants_co_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co_damage.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Pants\SFM_MercPants\data\Merc_Pants_co_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co_destruct.rvmat"
 							}
 						}
 					};
@@ -174,7 +174,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Pants\SFM_MercPants\data\Merc_Pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.paa"
 		};
 	};
 };

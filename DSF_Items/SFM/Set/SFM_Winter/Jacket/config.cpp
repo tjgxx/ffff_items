@@ -29,7 +29,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Winter Jacket";
 		descriptionShort="Winter jacket, perfect for cold weather. It keeps heat well and is windproof.";
-		model="SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -51,11 +51,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -71,7 +71,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
 							}
 						},
 						
@@ -79,7 +79,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.rvmat"
 							}
 						},
 						
@@ -87,7 +87,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_damage.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_damage.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_destruct.rvmat"
 							}
 						}
 					};
@@ -145,8 +145,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket.p3d";
-			female="SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\SFM_WinterJacket.p3d";
 		};
 		class AnimEvents
 		{
@@ -171,7 +171,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_WinterJacket_Brown: SFM_WinterJacket_Base
@@ -180,7 +180,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co2.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_WinterJacket_Green: SFM_WinterJacket_Base
@@ -189,7 +189,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co3.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_WinterJacket_DarkBrown: SFM_WinterJacket_Base
@@ -198,7 +198,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co4.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_co4.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_WinterJacket_Blue: SFM_WinterJacket_Base
@@ -207,7 +207,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_merc.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_merc.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_WinterJacket_DarkGreen: SFM_WinterJacket_Base
@@ -216,7 +216,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Jacket\data\winter_jacket_neutral.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Jacket\data\winter_jacket_neutral.paa"
 		};
 	};
 };

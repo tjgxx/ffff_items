@@ -32,7 +32,7 @@ class CfgVehicles
 	class FFFF_Clothing_GasMasks_ExoGasMask: GP5GasMask
 	{
 		scope=2;
-		model="SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask_g.p3d";
 		attachments[]=
 		{
 			"GasMaskFilter"
@@ -51,8 +51,8 @@ class CfgVehicles
 		repairCosts[]={};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask.p3d";
-			female="SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\SFM_ExoGasMask.p3d";
 		};
 		hiddenSelections[]=
 		{
@@ -67,11 +67,11 @@ class CfgVehicles
 		}
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
 		};
 		class DamageSystem
 		{
@@ -87,7 +87,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_ca.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_damage.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_damage.rvmat"
 							}
 						},
 						
@@ -119,7 +119,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\GasMask\data\tb_gasmask_destruct.rvmat"
 							}
 						}
 					};

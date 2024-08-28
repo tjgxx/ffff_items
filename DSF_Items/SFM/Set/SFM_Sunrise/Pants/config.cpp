@@ -37,7 +37,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Zarya Pants";
 		descriptionShort="The Zarya Pants offer reliable protection and freedom of movement in the dangerous conditions of the District. Made of durable and wear-resistant materials, these pants provide protection from cuts and bruises. Comfortable cut and functional pockets make them an ideal choice for ferals exploring the mysterious territories of the District.";
-		model="SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants_g.p3d";
 		inventorySlot="Legs";
 		simulation="clothing";
 		itemInfo[]=
@@ -64,16 +64,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants.p3d";
-			female="SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\SFM_SunrisePants_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -89,7 +89,7 @@ class CfgVehicles
 							1.01,
 							
 							{
-								"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
 							}
 						},
 						
@@ -97,7 +97,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.rvmat"
 							}
 						},
 						
@@ -105,7 +105,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_damage.rvmat"
 							}
 						},
 						
@@ -113,7 +113,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_damage.rvmat"
 							}
 						},
 						
@@ -121,7 +121,7 @@ class CfgVehicles
 							0.0099999998,
 							
 							{
-								"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_destruct.rvmat"
 							}
 						}
 					};
@@ -184,7 +184,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_gray_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_gray_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SunrisePants_Brown: SFM_SunrisePants_Base
@@ -193,7 +193,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_brown_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_brown_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SunrisePants_Green: SFM_SunrisePants_Base
@@ -202,7 +202,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.paa"
 		};
 	};
 };

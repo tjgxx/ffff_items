@@ -41,7 +41,7 @@ class CfgVehicles
 		displayName="SAS Pants";
 		descriptionShort="This is a special equipment designed to provide comfort and protection during tactical operations. Made of durable materials, they are resistant to wear and damage, providing reliable protection for the legs in various conditions. Combat pants are usually equipped with special pockets for storing equipment and other accessories, and have reinforced areas for additional protection.";
 		scope=0;
-		model="SFM\Set\SFM_SAS\Pants\SFM_SASPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\SFM_SASPants_g.p3d";
 		ContinuouActions[]=
 		{
 			"AT_WRING_CLOTHES"
@@ -69,18 +69,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\sas_pants_co.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_pants_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
-			"SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_SAS\Pants\SFM_SASPants_m.p3d";
-			female="SFM\Set\SFM_SAS\Pants\SFM_SASPants_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\SFM_SASPants_m.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\SFM_SASPants_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -96,8 +96,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
-								"SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
 							}
 						},
 						
@@ -105,8 +105,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
-								"SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_pants_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_co.rvmat"
 							}
 						},
 						
@@ -114,8 +114,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_SAS\Pants\data\SAS_Pants_damage.rvmat",
-								"SFM\Set\SFM_SAS\Pants\data\kneepad_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pants_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_damage.rvmat"
 							}
 						},
 						
@@ -123,8 +123,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_SAS\Pants\data\SAS_Pants_damage.rvmat",
-								"SFM\Set\SFM_SAS\Pants\data\kneepad_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pants_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_damage.rvmat"
 							}
 						},
 						
@@ -132,8 +132,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_SAS\Pants\data\SAS_Pants_destruct.rvmat",
-								"SFM\Set\SFM_SAS\Pants\data\kneepad_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pants_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\kneepad_destruct.rvmat"
 							}
 						}
 					};
@@ -196,8 +196,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_3.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_3.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Green2: SFM_SASPants_Base
@@ -206,8 +206,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_4.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_4.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Green3: SFM_SASPants_Base
@@ -216,8 +216,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_5.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_5.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Green4: SFM_SASPants_Base
@@ -226,8 +226,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_6.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_6.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Blue: SFM_SASPants_Base
@@ -236,8 +236,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_pants_merc_02.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_merc_02.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Black: SFM_SASPants_Base
@@ -246,8 +246,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_pants_bandit.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_bandit.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_SASPants_Brown: SFM_SASPants_Base
@@ -256,8 +256,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Pants\data\SAS_pants_rene.paa",
-			"SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_rene.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\sas_knees_co.paa"
 		};
 	};
 };

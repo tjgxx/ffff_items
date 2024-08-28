@@ -36,7 +36,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Freedom Jacket";
 		descriptionShort="This is the perfect combination of style, protection and functionality. Made from durable materials, it provides reliable protection from bad weather and external influences. The unique design of the jacket allows you to look stylish and at the same time be ready for any conditions. Numerous pockets will allow you to conveniently store all the necessary items, and the comfortable cut provides freedom of movement in any situation.";
-		model="SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -69,15 +69,15 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -93,9 +93,9 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 							}
 						},
 						
@@ -103,9 +103,9 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 							}
 						},
 						
@@ -113,9 +113,9 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
 							}
 						},
 						
@@ -123,9 +123,9 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
 							}
 						},
 						
@@ -133,9 +133,9 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_destruct.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_destruct.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_destrcut.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_destrcut.rvmat"
 							}
 						}
 					};
@@ -177,8 +177,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket.p3d";
-			female="SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\SFM_WFJacket.p3d";
 		};
 		class AnimEvents
 		{
@@ -203,9 +203,9 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_FreedomJacket_Blue: SFM_WFJacket_Base
@@ -214,9 +214,9 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_merc_02_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_merc_02_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_merc_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_jacket_merc_02_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\WF_Set_hood_merc_02_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_merc_co.paa"
 		};
 	};
 };

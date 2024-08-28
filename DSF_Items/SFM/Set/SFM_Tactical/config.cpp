@@ -38,7 +38,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Tactical Pants";
 		descriptionShort="Tactical pants are comfortable and functional clothing designed for an active lifestyle. They have reinforced seams, many pockets for storing various items, and a comfortable cut for freedom of movement. Such pants are often used by the military, tourists, hunters, and just those who enjoy active recreation.";
-		model="SFM\Set\SFM_Tactical\SFM_TacticalPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalPants_g.p3d";
 		inventorySlot="Legs";
 		simulation="clothing";
 		itemInfo[]=
@@ -62,16 +62,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Tactical\SFM_TacticalPants_m.p3d";
-			female="SFM\Set\SFM_Tactical\SFM_TacticalPants_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalPants_m.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalPants_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -87,7 +87,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
 							}
 						},
 						
@@ -119,7 +119,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_destruct.rvmat"
 							}
 						}
 					};
@@ -182,7 +182,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_TacticalPants_Black: SFM_TacticalPants_Base
@@ -191,7 +191,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_Bandit.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_Bandit.paa"
 		};
 	};
 	class SFM_TacticalSweater_Base: GorkaEJacket_Flat
@@ -199,7 +199,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Tactical Sweater";
 		descriptionShort="The tactical sweater is a versatile and practical garment that combines comfort and functionality. It is made of durable materials that provide protection from wind and cold. It has reinforced areas on the elbows and shoulders to improve wear resistance.";
-		model="SFM\Set\SFM_Tactical\SFM_TacticalSweater_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalSweater_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -231,11 +231,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -251,7 +251,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 							}
 						},
 						
@@ -259,7 +259,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.rvmat"
 							}
 						},
 						
@@ -267,7 +267,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
 							}
 						},
 						
@@ -275,7 +275,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_damage.rvmat"
 							}
 						},
 						
@@ -283,7 +283,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Set\SFM_Tactical\data\Tactical_Suit_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_destruct.rvmat"
 							}
 						}
 					};
@@ -325,8 +325,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Tactical\SFM_TacticalSweater_m.p3d";
-			female="SFM\Set\SFM_Tactical\SFM_TacticalSweater_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalSweater_m.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Tactical\SFM_TacticalSweater_f.p3d";
 		};
 		class AnimEvents
 		{
@@ -351,7 +351,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_TacticalSweater_Grey: SFM_TacticalSweater_Base
@@ -360,7 +360,7 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Tactical\data\Tactical_Suit_co2.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co2.paa"
 		};
 	};
 };

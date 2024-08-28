@@ -38,7 +38,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Ремень Экзоскелета";
 		descriptionShort="Ремень экзоскелета для сталкеров - революционное снаряжение, обеспечивающее усиление физических способностей в условиях Зоны. Изготовленный из уникальных наноматериалов, этот ремень обеспечивает невероятное увеличение выносливости и силы, позволяя сталкерам проявлять выдающиеся физические способности в самых экстремальных условиях. Встроенные нейроинтерфейсы синхронизируются с мышечной системой, обеспечивая максимальную эффективность движений и реакций. Это снаряжение стало настоящим прорывом в технологиях защиты и усиления физических способностей в мире Зоны.";
-		model="SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt_g.p3d";
 		vehicleClass="Clothing";
 		simulation="clothing";
 		inventorySlot="Hips";
@@ -73,15 +73,15 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"
 		};
 		class DamageSystem
 		{
@@ -90,14 +90,14 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=1000;
-					healthLevels[]={{1.1,{"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat","SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat","SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"}},{0.69999999,{"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat","SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat","SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"}},{0.5,{"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_damage.rvmat","SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat","SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_damage.rvmat"}},{0.30000001,{"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_damage.rvmat","SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat","SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_damage.rvmat"}},{0.1,{"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_destruct.rvmat","SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat","SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_destruct.rvmat"}}};
+					healthLevels[]={{1.1,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_ca.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_damage.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_damage.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_damage.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_damage.rvmat"}},{0.1,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_destruct.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat","ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Vest\data\tb_pah_destruct.rvmat"}}};
 				};
 			};
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt.p3d";
-			female="SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt.p3d";
 		};
 		class AnimEvents
 		{
@@ -122,8 +122,8 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\data\tb_belt_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
 		};
 	};
 	class FFFF_Consumables_ExoBattery_1: Inventory_Base
@@ -131,7 +131,7 @@ class CfgVehicles
 		scope=2;
 		displayName="High-Capacity Battery";
 		descriptionShort="";
-		model="SFM\Set\SFM_Exoskelet\Attach\exo_acc_01.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\exo_acc_01.p3d";
 		inventorySlot[]=
 		{
 			"ExoAcc"
@@ -153,7 +153,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=300;
-					healthLevels[]={{1,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.69999999,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.5,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0.30000001,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"}}};
+					healthLevels[]={{1,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"}}};
 				};
 			};
 		};
@@ -164,7 +164,7 @@ class CfgVehicles
 		scope=2;
 		displayName="High-Capacity Battery";
 		descriptionShort="";
-		model="SFM\Set\SFM_Exoskelet\Attach\Exo_Acc_02_01.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\Exo_Acc_02_01.p3d";
 		inventorySlot[]=
 		{
 			"ExoAcc"
@@ -186,7 +186,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=300;
-					healthLevels[]={{1,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.69999999,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.5,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0.30000001,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0,{"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"}}};
+					healthLevels[]={{1,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"}},{0,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"}}};
 				};
 			};
 		};
@@ -196,7 +196,7 @@ class CfgVehicles
 		scope=2;
 		displayName="Exoskeleton Backpack";
 		descriptionShort="";
-		model="SFM\Set\SFM_Exoskelet\Attach\ExoAttBag.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\ExoAttBag.p3d";
 		inventorySlot[]=
 		{
 			"ExoBackpack"
@@ -208,8 +208,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.paa",
-			"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_skelet_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_skelet_ca.paa"
 		};
 		weight=5000;
 		itemSize[]={5,9};
@@ -226,7 +226,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=800;
-					healthLevels[]={{1,{"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.rvmat"}},{0.69999999,{"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.rvmat"}},{0.5,{"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_damage.rvmat"}},{0.30000001,{"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_damage.rvmat"}},{0,{"SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_destruct.rvmat"}}};
+					healthLevels[]={{1,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_ca.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_damage.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_damage.rvmat"}},{0,{"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\data\exo_backpack_destruct.rvmat"}}};
 				};
 			};
 		};

@@ -24,7 +24,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Sports Sneakers";
 		descriptionShort="Sports sneakers are the perfect choice for an active lifestyle. Their lightweight and flexible design provides comfort and support during sports or everyday walks. Durable materials and a comfortable sole make these sneakers indispensable for running, fitness or just active recreation. Thanks to their stylish design, they are also great for everyday wear, adding a dynamic accent to your look.";
-		model="SFM\Boots\SFM_SportBoots\SFM_SportBoots_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\SFM_SportBoots_g.p3d";
 		inventorySlot[]=
 		{
 			"Feet"
@@ -52,16 +52,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Boots\SFM_SportBoots\SFM_SportBoots_m.p3d";
-			female="SFM\Boots\SFM_SportBoots\SFM_SportBoots_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\SFM_SportBoots_m.p3d";
+			female="ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\SFM_SportBoots_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -77,7 +77,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
 							}
 						},
 						
@@ -85,7 +85,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.rvmat"
 							}
 						},
 						
@@ -93,7 +93,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_damage.rvmat"
 							}
 						},
 						
@@ -101,7 +101,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_damage.rvmat"
 							}
 						},
 						
@@ -109,7 +109,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_destruct.rvmat"
 							}
 						}
 					};
@@ -172,7 +172,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_SportsSneakers_2: SFM_SportBoots_Base
@@ -181,7 +181,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co2.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_SportsSneakers_3: SFM_SportBoots_Base
@@ -190,7 +190,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co3.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_SportsSneakers_4: SFM_SportBoots_Base
@@ -199,7 +199,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co4.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_SportBoots\data\Bandit_Sets_kap_co4.paa"
 		};
 	};
 };

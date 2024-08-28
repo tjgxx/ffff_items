@@ -34,7 +34,7 @@ class CfgVehicles
 		scope=2;
 		displayName="Exoskeleton";
 		descriptionShort="The exoskeleton is advanced equipment that provides unsurpassed protection and mobility in the conditions of the District. Made of durable and lightweight materials, this exoskeleton enhances the feral's physical abilities, allowing them to move quickly and maneuverably, despite the weight of their equipment. Integrated protection systems provide protection against bullets and radiation, making it indispensable equipment for brave explorers of the District.";
-		model="SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack_g.p3d";
 		inventorySlot[]=
 		{
 			"Back"
@@ -67,22 +67,22 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.paa",
-			"SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.paa",
-			"SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack.p3d";
-			female="SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\BackPack\SFM_ExoBackPack.p3d";
 		};
 		class DamageSystem
 		{
@@ -98,10 +98,10 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 							}
 						},
 						
@@ -109,10 +109,10 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 							}
 						},
 						
@@ -120,10 +120,10 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\System\data\exo_spine_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_legs_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_arms_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
 							}
 						},
 						
@@ -131,10 +131,10 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\System\data\exo_spine_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_legs_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_arms_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
 							}
 						},
 						
@@ -142,10 +142,10 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\System\data\exo_spine_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_legs_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\System\data\exo_arms_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_spine_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_legs_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\System\data\exo_arms_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"
 							}
 						}
 					};
@@ -192,12 +192,12 @@ class CfgNonAIVehicles
 	{
 		scope=2;
 		inventorySlot="ExoBackpack";
-		model="SFM\Set\SFM_Exoskelet\Attach\exoattbag.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\exoattbag.p3d";
 	};
 	class Proxyexo_acc_01: ProxyAttachment
 	{
 		scope=2;
 		inventorySlot="ExoAcc";
-		model="SFM\Set\SFM_Exoskelet\Attach\exo_acc_01.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\exo_acc_01.p3d";
 	};
 };

@@ -36,7 +36,7 @@ class CfgVehicles
 		displayName="Freedom Gas Mask";
 		descriptionShort="The gas mask is a reliable protection against harmful substances and pollution in the District. Made of special materials, it provides reliable air filtration and protection against harmful particles. Convenient adjustable straps allow you to comfortably and tightly fasten the gas mask on your face, providing reliable protection even in the most adverse conditions.";
 		itemSize[]={2,1};
-		model="SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3_g.p3d";
 		repairableWithKits[]={8,6};
 		repairCosts[]={};
 		attachments[]=
@@ -53,8 +53,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3.p3d";
-			female="SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\SFM_WFMask3.p3d";
 		};
 		hiddenSelections[]=
 		{
@@ -62,11 +62,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
 		};
 		class Protection
 		{
@@ -88,7 +88,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
 							}
 						},
 						
@@ -96,7 +96,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_Co.rvmat"
 							}
 						},
 						
@@ -104,7 +104,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_damage.rvmat"
 							}
 						},
 						
@@ -112,7 +112,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_damage.rvmat"
 							}
 						},
 						
@@ -120,7 +120,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Mask\data\WF_Set_GM_destruct.rvmat"
 							}
 						}
 					};

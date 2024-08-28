@@ -29,7 +29,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Winter Pants";
 		descriptionShort="Winter pants with insulated lining are perfect for cold weather, retain heat, do not restrict movement, and have knee protection.";
-		model="SFM\Set\SFM_Winter\Pants\SFM_WinterPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\SFM_WinterPants_g.p3d";
 		ContinuouActions[]=
 		{
 			"AT_WRING_CLOTHES"
@@ -60,16 +60,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Winter\Pants\SFM_WinterPants.p3d";
-			female="SFM\Set\SFM_Winter\Pants\SFM_WinterPants.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\SFM_WinterPants.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\SFM_WinterPants.p3d";
 		};
 		class DamageSystem
 		{
@@ -85,7 +85,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
 							}
 						},
 						
@@ -93,7 +93,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
 							}
 						},
 						
@@ -101,7 +101,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
 							}
 						},
 						
@@ -109,7 +109,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
 							}
 						},
 						
@@ -117,7 +117,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Set\SFM_Winter\Pants\data\winter_pants_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_destruct.rvmat"
 							}
 						}
 					};
@@ -180,7 +180,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_WinterPants_Brown: SFM_WinterPants_Base
@@ -189,7 +189,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co2.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_WinterPants_Green: SFM_WinterPants_Base
@@ -198,7 +198,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co3.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_WinterPants_DarkBrown: SFM_WinterPants_Base
@@ -207,7 +207,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_co4.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co4.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_WinterPants_Blue: SFM_WinterPants_Base
@@ -216,7 +216,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_merc.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_merc.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_WinterPants_DarkGreen: SFM_WinterPants_Base
@@ -225,7 +225,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Winter\Pants\data\winter_pants_neutral.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_neutral.paa"
 		};
 	};
 };

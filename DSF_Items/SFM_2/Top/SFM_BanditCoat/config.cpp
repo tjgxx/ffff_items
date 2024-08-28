@@ -33,7 +33,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Cloak";
 		descriptionShort="A leather raincoat is the epitome of style and elegance. Made from high-quality genuine leather, this raincoat adds sophistication and sophistication to your look. Its versatile design allows it to be combined with both casual wear and elegant outfits for special occasions. A leather raincoat is not only a fashion accessory, but also reliable protection from wind and bad weather. Add charm and style to your wardrobe with this unique leather trench coat.";
-		model="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -58,13 +58,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -80,8 +80,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -89,8 +89,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -98,8 +98,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -107,8 +107,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -116,8 +116,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
 							}
 						}
 					};
@@ -159,8 +159,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1.p3d";
-			female="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat1_f.p3d";
 		};
 		class AnimEvents
 		{
@@ -185,8 +185,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat1_Black: SFM_BanditCoat_Base
@@ -195,8 +195,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat1_Tan: SFM_BanditCoat_Base
@@ -205,8 +205,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat1_Red: SFM_BanditCoat_Base
@@ -215,8 +215,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
 		};
 	};
 	class SFM_BanditCoat2_Base: GorkaEJacket_ColorBase
@@ -224,7 +224,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Cloak";
 		descriptionShort="A leather raincoat is the epitome of style and elegance. Made from high-quality genuine leather, this raincoat adds sophistication and sophistication to your look. Its versatile design allows it to be combined with both casual wear and elegant outfits for special occasions. A leather raincoat is not only a fashion accessory, but also reliable protection from wind and bad weather. Add charm and style to your wardrobe with this unique leather trench coat.";
-		model="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -249,13 +249,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -271,8 +271,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -280,8 +280,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -289,8 +289,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -298,8 +298,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -307,8 +307,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
 							}
 						}
 					};
@@ -350,8 +350,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2.p3d";
-			female="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat2_f.p3d";
 		};
 		class AnimEvents
 		{
@@ -376,8 +376,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat2_Black: SFM_BanditCoat2_Base
@@ -386,8 +386,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat2_Tan: SFM_BanditCoat2_Base
@@ -396,8 +396,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat2_Red: SFM_BanditCoat2_Base
@@ -406,8 +406,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
 		};
 	};
 	class SFM_BanditCoat3_Base: GorkaEJacket_ColorBase
@@ -415,7 +415,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Cloak";
 		descriptionShort="A leather raincoat is the epitome of style and elegance. Made from high-quality genuine leather, this raincoat adds sophistication and sophistication to your look. Its versatile design allows it to be combined with both casual wear and elegant outfits for special occasions. A leather raincoat is not only a fashion accessory, but also reliable protection from wind and bad weather. Add charm and style to your wardrobe with this unique leather trench coat.";
-		model="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -440,13 +440,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 		};
 		class DamageSystem
 		{
@@ -462,8 +462,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -471,8 +471,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.rvmat"
 							}
 						},
 						
@@ -480,8 +480,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -489,8 +489,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_damage.rvmat"
 							}
 						},
 						
@@ -498,8 +498,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_destruct.rvmat"
 							}
 						}
 					};
@@ -541,8 +541,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3.p3d";
-			female="SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\SFM_BanditCoat3.p3d";
 		};
 		class AnimEvents
 		{
@@ -567,8 +567,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat3_Black: SFM_BanditCoat3_Base
@@ -577,8 +577,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat3_Tan: SFM_BanditCoat3_Base
@@ -587,8 +587,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co3.paa"
 		};
 	};
 	class FFFF_Clothing_Jackets_BanditCoat3_Red: SFM_BanditCoat3_Base
@@ -597,8 +597,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa",
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_pl_co4.paa"
 		};
 	};
 };

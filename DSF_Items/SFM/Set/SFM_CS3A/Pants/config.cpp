@@ -23,7 +23,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Protective Pants";
 		descriptionShort="These protective pants offer high-tech protection for adventure seekers in the District. Their special composite coating provides reliable protection against the elements, allowing ferals to explore the most dangerous corners of District 3 with less risk. Comfortable cut and additional pockets make these pants an ideal choice for survival.";
-		model="SFM\Set\SFM_CS3A\Pants\SFM_CS3APants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\SFM_CS3APants_g.p3d";
 		inventorySlot="Legs";
 		simulation="clothing";
 		itemInfo[]=
@@ -50,16 +50,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_cs_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_cs_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_CS3A\Pants\SFM_CS3APants.p3d";
-			female="SFM\Set\SFM_CS3A\Pants\SFM_CS3APants.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\SFM_CS3APants.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\SFM_CS3APants.p3d";
 		};
 		class DamageSystem
 		{
@@ -75,7 +75,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
 							}
 						},
 						
@@ -83,7 +83,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_co.rvmat"
 							}
 						},
 						
@@ -91,7 +91,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_damage.rvmat"
 							}
 						},
 						
@@ -99,7 +99,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_damage.rvmat"
 							}
 						},
 						
@@ -107,7 +107,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Pants\data\cs3a_pants_destruct.rvmat"
 							}
 						}
 					};

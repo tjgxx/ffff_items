@@ -47,7 +47,7 @@ class CfgVehicles
 		scope=0;
 		displayName="SAS Jacket";
 		descriptionShort="Made of durable materials, it provides comfort, protection from wind and moisture, as well as convenience when wearing equipment. Special pockets, easy access to internal pockets and the ability to attach additional accessories make the tactical jacket indispensable for professionals and enthusiasts of tactical activities.";
-		model="SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_g.p3d";
 		ContinuousActions[]={190};
 		ContinuouActions[]=
 		{
@@ -83,18 +83,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_m.p3d";
-			female="SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_f.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_m.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\SFM_SASJacket_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -110,8 +110,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
 							}
 						},
 						
@@ -119,8 +119,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\sas_Jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.rvmat"
 							}
 						},
 						
@@ -128,8 +128,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_damage.rvmat",
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_damage.rvmat"
 							}
 						},
 						
@@ -137,8 +137,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_damage.rvmat",
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_damage.rvmat"
 							}
 						},
 						
@@ -146,8 +146,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_destruct.rvmat",
-								"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_destruct.rvmat"
 							}
 						}
 					};
@@ -210,8 +210,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_3.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_3.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_SASJacket_Green2: SFM_SASJacket_Base
@@ -220,8 +220,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_4.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_4.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_SASJacket_Green3: SFM_SASJacket_Base
@@ -230,8 +230,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_5.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_5.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_SASJacket_Green4: SFM_SASJacket_Base
@@ -240,8 +240,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_6.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_6.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_SASJacket_Blue: SFM_SASJacket_Base
@@ -250,8 +250,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_merc_02.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_merc_02.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_SASJacket_Brown: SFM_SASJacket_Base
@@ -260,8 +260,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_rene.paa",
-			"SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_rene.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
 };

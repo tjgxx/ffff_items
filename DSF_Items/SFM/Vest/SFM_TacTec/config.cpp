@@ -31,7 +31,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		displayName="TacTec Vest";
 		descriptionShort="Provides protection for vital human organs when damaged by AK74 5.45mm x 39mm, AKM 7.62mm x 39mm ammunition at a distance of 10m, as well as from damage from shrapnel. The ergonomics of the body armor are well thought out: it evenly distributes the load on the body, is equipped with climatic shock-absorbing support(CAP), and the armor plates have an anatomical profile.";
-		model="SFM\Vest\SFM_TacTec\SFM_TacTec_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\SFM_TacTec_g.p3d";
 		inventorySlot="Vest";
 		attachments[]=
 		{
@@ -62,16 +62,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_GREEN.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_GREEN.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Vest\SFM_TacTec\SFM_TacTec.p3d";
-			female="SFM\Vest\SFM_TacTec\SFM_TacTec.p3d";
+			male="ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\SFM_TacTec.p3d";
+			female="ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\SFM_TacTec.p3d";
 		};
 		class DamageSystem
 		{
@@ -87,7 +87,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Vest\SFM_TacTec\data\TacTec_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec_damage.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Vest\SFM_TacTec\data\TacTec_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec_damage.rvmat"
 							}
 						},
 						
@@ -119,7 +119,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Vest\SFM_TacTec\data\TacTec_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TacTec_destruct.rvmat"
 							}
 						}
 					};
@@ -196,7 +196,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_Black.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_Black.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_Blue: SFM_TacTec_Vest
@@ -205,7 +205,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_BLUE.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_BLUE.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_Green: SFM_TacTec_Vest
@@ -214,7 +214,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_GREEN.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_GREEN.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_Tan: SFM_TacTec_Vest
@@ -223,7 +223,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_TAN.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_TAN.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_Brown: SFM_TacTec_Vest
@@ -232,7 +232,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_brown.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_brown.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_Merc: SFM_TacTec_Vest
@@ -241,7 +241,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_Merc.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_Merc.paa"
 		};
 	};
 	class FFFF_Armor_Vest_TacTec_KB: SFM_TacTec_Vest
@@ -250,7 +250,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_TacTec\data\TEC_TEC_KB.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_KB.paa"
 		};
 	};
 };

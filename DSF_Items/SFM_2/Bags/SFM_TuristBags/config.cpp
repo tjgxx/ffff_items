@@ -25,7 +25,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Tourist Backpack";
 		descriptionShort="The Tourist backpack is an indispensable companion for lovers of outdoor activities and travel. With multiple compartments and pockets, it provides convenient organization and secure storage for your essentials, from clothes to gear. Comfortable straps and a ventilated back make it ideal for long hikes and walks. Durable materials and waterproof fabric protect the contents from the elements.";
-		model="SFM_2\Bags\SFM_TuristBags\SFM_TuristBags_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\SFM_TuristBags_g.p3d";
 		inventorySlot="Back";
 		attachments[]={};
 		itemInfo[]=
@@ -46,16 +46,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Green_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Green_BaseColor.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Bags\SFM_TuristBags\SFM_TuristBags.p3d";
-			female="SFM_2\Bags\SFM_TuristBags\SFM_TuristBags.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\SFM_TuristBags.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\SFM_TuristBags.p3d";
 		};
 		class DamageSystem
 		{
@@ -71,7 +71,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
 							}
 						},
 						
@@ -79,7 +79,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists.rvmat"
 							}
 						},
 						
@@ -87,7 +87,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_damage.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_damage.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_Tourists_destruct.rvmat"
 							}
 						}
 					};
@@ -138,7 +138,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Blue_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Blue_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Bags_TouristBackpack_Green: SFM_TuristBags_Base
@@ -147,7 +147,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Green_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Green_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Bags_TouristBackpack_Red: SFM_TuristBags_Base
@@ -156,7 +156,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Red_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Red_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Bags_TouristBackpack_Yellow: SFM_TuristBags_Base
@@ -165,7 +165,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Yellow_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM_2\Bags\SFM_TuristBags\data\Backpack_03_Yellow_BaseColor.paa"
 		};
 	};
 };

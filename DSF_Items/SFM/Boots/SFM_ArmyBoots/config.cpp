@@ -26,7 +26,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Army Boots";
 		descriptionShort="Durable army boots that will allow you to walk more than 3 miles, and will also relieve excess stress from your feet. Great for rough terrain.";
-		model="SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots_g.p3d";
 		inventorySlot[]=
 		{
 			"Feet"
@@ -54,16 +54,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_ArmyBoots\data\Boots_GREEn_BaseColor.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\Boots_GREEn_BaseColor.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="\SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots.p3d";
-			female="\SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots.p3d";
+			male="\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots.p3d";
+			female="\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\SFM_ArmyBoots.p3d";
 		};
 		class DamageSystem
 		{
@@ -79,7 +79,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
 							}
 						},
 						
@@ -87,7 +87,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots.rvmat"
 							}
 						},
 						
@@ -95,7 +95,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_damage.rvmat"
 							}
 						},
 						
@@ -103,7 +103,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_damage.rvmat"
 							}
 						},
 						
@@ -111,7 +111,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\ArmyBoots_destruct.rvmat"
 							}
 						}
 					};
@@ -174,7 +174,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ArmyBoots\data\Boots_Black_BaseColor.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\Boots_Black_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_ArmyBoots_Green: SFM_ArmyBoots_ColorBase
@@ -183,7 +183,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ArmyBoots\data\Boots_GREEn_BaseColor.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\Boots_GREEn_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_ArmyBoots_Tan: SFM_ArmyBoots_ColorBase
@@ -192,7 +192,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ArmyBoots\data\Boots_Tan_BaseColor.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\Boots_Tan_BaseColor.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_ArmyBoots_UCP: SFM_ArmyBoots_ColorBase
@@ -201,7 +201,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ArmyBoots\data\Boots_UCP_BaseColor.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ArmyBoots\data\Boots_UCP_BaseColor.paa"
 		};
 	};
 };

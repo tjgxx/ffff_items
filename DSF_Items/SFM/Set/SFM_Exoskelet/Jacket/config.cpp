@@ -34,7 +34,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Armor Jacket";
 		descriptionShort="The heavy armor jacket is an insurmountable defense in the harsh world of the District. Made of durable materials, this jacket provides reliable protection from bullets and shrapnel. Due to its durability and functionality, it will become an indispensable piece of equipment for ferals exploring dangerous territories and engaging in battles with mutants and other threats.";
-		model="SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -67,16 +67,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket.p3d";
-			female="SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\SFM_ExoJacket.p3d";
 		};
 		class DamageSystem
 		{
@@ -92,7 +92,7 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
 							}
 						},
 						
@@ -100,7 +100,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.rvmat"
 							}
 						},
 						
@@ -108,7 +108,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_damage.rvmat"
 							}
 						},
 						
@@ -116,7 +116,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_damage.rvmat"
 							}
 						},
 						
@@ -124,7 +124,7 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_destruct.rvmat"
 							}
 						}
 					};
@@ -217,7 +217,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.paa"
 		};
 	};
 };

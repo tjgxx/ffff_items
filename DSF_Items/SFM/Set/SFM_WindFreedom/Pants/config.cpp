@@ -36,7 +36,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Freedom Pants";
 		descriptionShort="The Freedom Pants are the perfect choice for survival in the unpredictable conditions of the District. Made from durable and wear-resistant materials, they provide reliable protection from wind, moisture and cold. Reinforced areas on the knees and waist make them a reliable and durable choice for moving on uneven terrain. Multifunctional pockets allow you to conveniently store the necessary survival items, and a comfortable cut ensures freedom of movement in any conditions.";
-		model="SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants_g.p3d";
 		ContinuouActions[]=
 		{
 			"AT_WRING_CLOTHES"
@@ -63,18 +63,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants.p3d";
-			female="SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\SFM_WFPants.p3d";
 		};
 		class DamageSystem
 		{
@@ -90,8 +90,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 							}
 						},
 						
@@ -99,8 +99,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.rvmat"
 							}
 						},
 						
@@ -108,8 +108,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
 							}
 						},
 						
@@ -117,8 +117,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_damage.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
 							}
 						},
 						
@@ -126,8 +126,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_destruct.rvmat",
-								"SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_damage.rvmat"
 							}
 						}
 					};
@@ -190,8 +190,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_co.paa"
 		};
 	};
 	class FFFF_Clothing_Pants_FreedomPants_Blue: SFM_WFPants_Base
@@ -200,8 +200,8 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_merc_02_co.paa",
-			"SFM\Set\SFM_WindFreedom\Jacket\data\knees_merc_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Pants\data\WF_Set_pants_merc_02_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_WindFreedom\Jacket\data\knees_merc_co.paa"
 		};
 	};
 };

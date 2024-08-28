@@ -34,7 +34,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Armor Pants";
 		descriptionShort="The Heavy Armor Pants offer innovative protection and mobility in the District. Specially designed from ultra-light but durable materials, these pants provide a high level of protection with minimal weight. Unique technology provides adaptive protection from various threats. The latest design and ergonomic cut provide maximum freedom of movement, allowing ferals to effectively cope with the challenges of the District.";
-		model="SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants_g.p3d";
 		inventorySlot="Legs";
 		simulation="clothing";
 		itemInfo[]=
@@ -63,16 +63,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants.p3d";
-			female="SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\SFM_ExoPants.p3d";
 		};
 		class DamageSystem
 		{
@@ -88,7 +88,7 @@ class CfgVehicles
 							1.01,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
 							}
 						},
 						
@@ -96,7 +96,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.rvmat"
 							}
 						},
 						
@@ -104,7 +104,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_damage.rvmat"
 							}
 						},
 						
@@ -112,7 +112,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_damage.rvmat"
 							}
 						},
 						
@@ -120,7 +120,7 @@ class CfgVehicles
 							0.0099999998,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_destruct.rvmat"
 							}
 						}
 					};
@@ -213,7 +213,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.paa"
 		};
 	};
 };

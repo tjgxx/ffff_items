@@ -35,7 +35,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Tactical Boots";
 		descriptionShort="Tactical boots allow you to run on rough terrain and at the same time protect you from mechanical injuries. This is the main feature of tactical footwear.";
-		model="SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots_g.p3d";
 		inventorySlot[]=
 		{
 			"Feet"
@@ -61,16 +61,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_TacticalBoots\data\Boots_co.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots.p3d";
-			female="SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots.p3d";
+			male="ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots.p3d";
+			female="ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\SFM_TacticalBoots.p3d";
 		};
 		class DamageSystem
 		{
@@ -86,7 +86,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
 							}
 						},
 						
@@ -94,7 +94,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_co.rvmat"
 							}
 						},
 						
@@ -102,7 +102,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Boots\SFM_TacticalBoots\data\Boots_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_damage.rvmat"
 							}
 						},
 						
@@ -110,7 +110,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Boots\SFM_TacticalBoots\data\Boots_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_damage.rvmat"
 							}
 						},
 						
@@ -118,7 +118,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Boots\SFM_TacticalBoots\data\Boots_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_destruct.rvmat"
 							}
 						}
 					};
@@ -181,7 +181,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_TacticalBoots\data\Boots_co.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_co.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_TacticalBoots_Brown: SFM_TacticalBoots_Base
@@ -190,7 +190,7 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_TacticalBoots\data\Boots_Bandit.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_TacticalBoots\data\Boots_Bandit.paa"
 		};
 	};
 };

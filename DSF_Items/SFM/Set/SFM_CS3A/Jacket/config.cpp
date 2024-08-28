@@ -27,7 +27,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Protective Jacket";
 		descriptionShort="This protective jacket uses innovative materials and technologies allowing ferals to confidently explore the most dangerous corners of District 3. The unique design and functional elements make this jacket an indispensable means of survival.";
-		model="SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket_g.p3d";
 		ContinuousActions[]={190};
 		inventorySlot="Body";
 		itemInfo[]=
@@ -67,18 +67,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_01_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_01_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_01_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_01_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket.p3d";
-			female="SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\SFM_CS3AJacket.p3d";
 		};
 		class DamageSystem
 		{
@@ -94,8 +94,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
 							}
 						},
 						
@@ -103,8 +103,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_co.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_co.rvmat"
 							}
 						},
 						
@@ -112,8 +112,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_damage.rvmat",
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_damage.rvmat"
 							}
 						},
 						
@@ -121,8 +121,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_damage.rvmat",
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_damage.rvmat"
 							}
 						},
 						
@@ -130,8 +130,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_destruct.rvmat",
-								"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_destruct.rvmat"
 							}
 						}
 					};
@@ -194,8 +194,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_01_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_01_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_01_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_01_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_ProtectiveJacket_Grey: SFM_CS3AJacket
@@ -204,8 +204,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_02_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_02_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_02_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_02_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_ProtectiveJacket_Tan: SFM_CS3AJacket
@@ -214,8 +214,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_03_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_03_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_stalker_03_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_03_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_ProtectiveJacket_DarkBrown: SFM_CS3AJacket
@@ -224,8 +224,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_renegade_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_renegade_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_renegade_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_renegade_co.paa"
 		};
 	};
 	class FFFF_Clothing_Jacket_ProtectiveJacket_Black: SFM_CS3AJacket
@@ -234,8 +234,8 @@ class CfgVehicles
 		visibilityModifier=0.75;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_bandit_co.paa",
-			"SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_bandit_co.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_jacket_bandit_co.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_bandit_co.paa"
 		};
 	};
 };

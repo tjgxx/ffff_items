@@ -32,7 +32,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Zephyr Boots";
 		descriptionShort="It is one of the most popular models of hiking boots, used by hikers, climbers, athletes, military and law enforcement officers around the world.";
-		model="SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots_g.p3d";
 		inventorySlot[]=
 		{
 			"Feet"
@@ -60,16 +60,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.paa"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
+			"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="\SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots.p3d";
-			female="\SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots.p3d";
+			male="\ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots.p3d";
+			female="\ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\SFM_ZephyrBoots.p3d";
 		};
 		class DamageSystem
 		{
@@ -85,7 +85,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
 							}
 						},
 						
@@ -93,7 +93,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.rvmat"
 							}
 						},
 						
@@ -101,7 +101,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_damage.rvmat"
 							}
 						},
 						
@@ -109,7 +109,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_damage.rvmat"
 							}
 						},
 						
@@ -117,7 +117,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_destruct.rvmat"
 							}
 						}
 					};
@@ -180,7 +180,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_ZephyrBoots_Black: SFM_ZephyrBoots_Base
@@ -189,7 +189,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_2.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\LowaZephyr_2.paa"
 		};
 	};
 	class FFFF_Clothing_Shoes_ZephyrBoots_Military: SFM_ZephyrBoots_Base
@@ -198,7 +198,7 @@ class CfgVehicles
 		visibilityModifier=0.80000001;
 		hiddenSelectionsTextures[]=
 		{
-			"\SFM\Boots\SFM_ZephyrBoots\data\boots_mil.paa"
+			"\ffff_items\DSF_Items\SFM\Boots\SFM_ZephyrBoots\data\boots_mil.paa"
 		};
 	};
 };

@@ -27,7 +27,7 @@ class CfgVehicles
 		scope=2;
 		displayName="Plate Vest";
 		descriptionShort="A comfortable vest with Kevlar sheets, does not restrict movement, is made of durable and resistant fabric, has several pockets for storing magazines, as well as adjustable fasteners, is convenient and practical in the zone.";
-		model="SFM\Vest\SFM_PlateVest\SFM_PlateVest_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\SFM_PlateVest_g.p3d";
 		inventorySlot="Vest";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -54,12 +54,12 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_stalker.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_stalker.paa"
 		};
 		class ClothingTypes
 		{
-			male="SFM\Vest\SFM_PlateVest\SFM_PlateVest.p3d";
-			female="SFM\Vest\SFM_PlateVest\SFM_PlateVest.p3d";
+			male="ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\SFM_PlateVest.p3d";
+			female="ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\SFM_PlateVest.p3d";
 		};
 		class DamageSystem
 		{
@@ -75,7 +75,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM\Vest\SFM_PlateVest\data\vest.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\vest.rvmat"
 							}
 						},
 						
@@ -83,7 +83,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Vest\SFM_PlateVest\data\vest.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\vest.rvmat"
 							}
 						},
 						
@@ -91,7 +91,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Vest\SFM_PlateVest\data\vest_damaged.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\vest_damaged.rvmat"
 							}
 						},
 						
@@ -99,7 +99,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Vest\SFM_PlateVest\data\vest_damaged.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\vest_damaged.rvmat"
 							}
 						},
 						
@@ -107,7 +107,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM\Vest\SFM_PlateVest\data\vest_ruined.rvmat"
+								"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\vest_ruined.rvmat"
 							}
 						}
 					};
@@ -199,7 +199,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_bandit.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_bandit.paa"
 		};
 	};
 	class FFFF_Armor_Vests_PlateVest_Black: SFM_PlateVest
@@ -207,7 +207,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_dolg.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_dolg.paa"
 		};
 	};
 	class FFFF_Armor_Vests_PlateVest_Blue: SFM_PlateVest
@@ -215,7 +215,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_merc.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_merc.paa"
 		};
 	};
 	class FFFF_Armor_Vests_PlateVest_DarkGreen: SFM_PlateVest
@@ -223,7 +223,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_neutral.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_neutral.paa"
 		};
 	};
 	class FFFF_Armor_Vests_PlateVest_Green: SFM_PlateVest
@@ -231,7 +231,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_stalker.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_stalker.paa"
 		};
 	};
 	class FFFF_Armor_Vests_PlateVest_Tan: SFM_PlateVest
@@ -239,7 +239,7 @@ class CfgVehicles
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Vest\SFM_PlateVest\data\tacvest1_1_co.paa"
+			"ffff_items\DSF_Items\SFM\Vest\SFM_PlateVest\data\tacvest1_1_co.paa"
 		};
 	};
 };

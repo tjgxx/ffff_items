@@ -23,7 +23,7 @@ class CfgVehicles
 	{
 		displayName="Sweatpants";
 		descriptionShort="Sweatpants are the ideal choice for sports and outdoor activities. Their lightweight and stretchy material ensures comfort and freedom of movement during workouts. Ventilation panels help wick moisture away, keeping you feeling fresh throughout your workout. The stylish and ergonomic design makes them an excellent choice not only for sports, but also for everyday wear. Add comfort and style to your gym closet.";
-		model="SFM_2\Pants\SFM_SportPants_g.p3d";
+		model="ffff_items\DSF_Items\SFM_2\Pants\SFM_SportPants_g.p3d";
 		inventorySlot="Legs";
 		simulation="clothing";
 		itemInfo[]=
@@ -45,16 +45,16 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
 		};
 		class ClothingTypes
 		{
-			male="SFM_2\Pants\SFM_SportPants.p3d";
-			female="SFM_2\Pants\SFM_SportPants_f.p3d";
+			male="ffff_items\DSF_Items\SFM_2\Pants\SFM_SportPants.p3d";
+			female="ffff_items\DSF_Items\SFM_2\Pants\SFM_SportPants_f.p3d";
 		};
 		class DamageSystem
 		{
@@ -70,7 +70,7 @@ class CfgVehicles
 							1,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
 							}
 						},
 						
@@ -78,7 +78,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.rvmat"
 							}
 						},
 						
@@ -86,7 +86,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat"
 							}
 						},
 						
@@ -94,7 +94,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_damage.rvmat"
 							}
 						},
 						
@@ -102,7 +102,7 @@ class CfgVehicles
 							0,
 							
 							{
-								"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_destruct.rvmat"
 							}
 						}
 					};
@@ -165,7 +165,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa"
 		};
 	};
 	class FFFF_Clothing_Plants_Sweatpants_Black: SFM_SportPants_Base
@@ -174,7 +174,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa"
 		};
 	};
 	class FFFF_Clothing_Plants_Sweatpants_White: SFM_SportPants_Base
@@ -183,7 +183,7 @@ class CfgVehicles
 		visibilityModifier=0.89999998;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa"
+			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa"
 		};
 	};
 };

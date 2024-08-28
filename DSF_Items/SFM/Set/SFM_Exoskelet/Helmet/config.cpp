@@ -34,7 +34,7 @@ class CfgVehicles
 		scope=0;
 		displayName="Heavy Armor Helmet";
 		descriptionShort="The helmet of the Heavy Armor suit for ferals is the most important component of protection in the District. Made of special composite materials, this helmet provides reliable head protection from bullets and shrapnel. Ergonomic design and comfortable fit make this helmet an indispensable piece of equipment for ferals exploring the District.";
-		model="SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet_g.p3d";
+		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet_g.p3d";
 		inventorySlot="Headgear";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -67,13 +67,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 		};
 		class DamageSystem
 		{
@@ -89,8 +89,8 @@ class CfgVehicles
 							1.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 							}
 						},
 						
@@ -98,8 +98,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.rvmat"
 							}
 						},
 						
@@ -107,8 +107,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
 							}
 						},
 						
@@ -116,8 +116,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_damage.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_damage.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_damage.rvmat"
 							}
 						},
 						
@@ -125,8 +125,8 @@ class CfgVehicles
 							0.1,
 							
 							{
-								"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_destruct.rvmat",
-								"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_destruct.rvmat",
+								"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_destruct.rvmat"
 							}
 						}
 					};
@@ -198,8 +198,8 @@ class CfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet.p3d";
-			female="SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet.p3d";
+			male="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet.p3d";
+			female="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\SFM_ExoHelmet.p3d";
 		};
 		class AnimEvents
 		{
@@ -224,8 +224,8 @@ class CfgVehicles
 		visibilityModifier=0.94999999;
 		hiddenSelectionsTextures[]=
 		{
-			"SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.paa",
-			"SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Helmet\data\tb_helmet_ca.paa",
+			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Attach\data\exo_acc_ca.paa"
 		};
 	};
 };
