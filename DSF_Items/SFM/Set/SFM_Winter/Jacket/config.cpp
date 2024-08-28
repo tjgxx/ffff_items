@@ -41,7 +41,7 @@ class CfgVehicles
 		itemSize[]={3,3};
 		quickBarBonus=2;
 		absorbency=0.050000001;
-		heatIsolation=0.89999998;
+		heatIsolation=0.9;
 		repairableWithKits[]={5,2};
 		repairCosts[]={30,25};
 		soundAttType="ChemlonDress";
@@ -115,30 +115,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};

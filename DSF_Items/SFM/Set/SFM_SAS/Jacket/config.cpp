@@ -159,30 +159,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -204,60 +204,60 @@ class CfgVehicles
 			};
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Green1: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Green1: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_3.paa",
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Green2: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Green2: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_4.paa",
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Green3: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Green3: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_5.paa",
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Green4: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Green4: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_Stalker_6.paa",
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Blue: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Blue: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_merc_02.paa",
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_hood_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_SASJacket_Brown: SFM_SASJacket_Base
+	class FFFF_Clothing_Jackets_SASJacket_Brown: SFM_SASJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Jacket\data\SAS_Jacket_rene.paa",

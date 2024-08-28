@@ -181,7 +181,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SunrisePants_Grey: SFM_SunrisePants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_gray_co.paa"
@@ -190,7 +190,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SunrisePants_Brown: SFM_SunrisePants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_brown_co.paa"
@@ -199,7 +199,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SunrisePants_Green: SFM_SunrisePants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Pants\data\SunriseM1_Pants_co.paa"

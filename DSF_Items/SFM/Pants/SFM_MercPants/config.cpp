@@ -123,30 +123,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -171,7 +171,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_KabalPants_Blue: SFM_MercPants_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Pants\SFM_MercPants\data\Merc_Pants_co.paa"

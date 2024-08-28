@@ -70,70 +70,28 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints=150;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_damaged.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_badlydamaged.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_ruined.rvmat"
-							}
-						}
-					};
+					healthLevels[]={{1,{"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket.rvmat"}},{0.69999999,{"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_damaged.rvmat"}},{0.30000001,{"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_badlydamaged.rvmat"}},{0,{"ffff_items\DSF_Items\SFM\Top\SFM_FightJacket\data\FightJacket_ruined.rvmat"}}};
 				};
 			};
 			class GlobalArmor
 			{
 				class Projectile
 				{
-					Health=0.89999998;
-					Blood=0.89999998;
-					Shock=0.89999998;
+					Health=0.9;
+					Blood=0.9;
+					Shock=0.9;
 				};
 				class Melee
 				{
-					Health=0.89999998;
-					Blood=0.89999998;
-					Shock=0.89999998;
+					Health=0.9;
+					Blood=0.9;
+					Shock=0.9;
 				};
 				class Infected
 				{
-					Health=0.89999998;
-					Blood=0.89999998;
-					Shock=0.89999998;
+					Health=0.9;
+					Blood=0.9;
+					Shock=0.9;
 				};
 			};
 		};

@@ -131,30 +131,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -179,7 +179,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_TacticalPants_Brown: SFM_TacticalPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_co.paa"
@@ -188,7 +188,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_TacticalPants_Black: SFM_TacticalPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Tactical\data\Tactical_Suit_Bandit.paa"
@@ -211,7 +211,7 @@ class CfgVehicles
 		itemSize[]={4,3};
 		quickBarBonus=2;
 		absorbency=0.5;
-		heatIsolation=0.89999998;
+		heatIsolation=0.9;
 		repairableWithKits[]={5,2};
 		repairCosts[]={30,25};
 		soundAttType="ChemlonDress";
@@ -295,30 +295,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};

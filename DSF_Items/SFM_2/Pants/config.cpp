@@ -114,30 +114,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -162,7 +162,7 @@ class CfgVehicles
 	class FFFF_Clothing_Plants_Sweatpants_Blue: SFM_SportPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co.paa"
@@ -171,7 +171,7 @@ class CfgVehicles
 	class FFFF_Clothing_Plants_Sweatpants_Black: SFM_SportPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co2.paa"
@@ -180,7 +180,7 @@ class CfgVehicles
 	class FFFF_Clothing_Plants_Sweatpants_White: SFM_SportPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM_2\Top\SFM_BanditCoat\data\Bandit_Sets_kurt_co3.paa"

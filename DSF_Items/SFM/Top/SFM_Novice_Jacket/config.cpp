@@ -161,30 +161,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -209,7 +209,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_Tan: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
@@ -224,7 +224,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_White: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
@@ -239,7 +239,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_Blackred: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
@@ -254,7 +254,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_Grey: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
@@ -269,7 +269,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_CellRed: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
@@ -284,7 +284,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_NoviceJacket_Black: SFM_NoviceJacket_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",
@@ -516,7 +516,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_Tan: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_ca.paa",
@@ -535,7 +535,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_White: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_grey_ca.paa",
@@ -554,7 +554,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_Blackred: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_norfin_blackred_ca.paa",
@@ -573,7 +573,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_Grey: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_black_ca.paa",
@@ -592,7 +592,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_CellRed: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\leather_jacket_CellRed_ca.paa",
@@ -611,7 +611,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_NoviceJacket_Black: SFM_NoviceJacket_open_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Novice_Jacket\data\jacket_legend_co.paa",

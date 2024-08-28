@@ -145,30 +145,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -193,7 +193,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Green1: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_3.paa",
@@ -203,7 +203,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Green2: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_4.paa",
@@ -213,7 +213,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Green3: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_5.paa",
@@ -223,7 +223,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Green4: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_Pasnts_Stalker_6.paa",
@@ -233,7 +233,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Blue: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_merc_02.paa",
@@ -243,7 +243,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Black: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_bandit.paa",
@@ -253,7 +253,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_SASPants_Brown: SFM_SASPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_SAS\Pants\data\SAS_pants_rene.paa",

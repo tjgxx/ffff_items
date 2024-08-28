@@ -49,7 +49,7 @@ class CfgVehicles
 		weight=530;
 		ragQuantity=3;
 		absorbency=0.60000002;
-		heatIsolation=0.89999998;
+		heatIsolation=0.9;
 		repairableWithKits[]={5,2};
 		repairCosts[]={30,25};
 		quickBarBonus=2;
@@ -77,50 +77,8 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=150;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_destruct.rvmat"
-							}
-						}
-					};
+					hitpoints = 150;
+					healthLevels[] = {{1.0,{"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"}},{0.7,{"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.rvmat"}},{0.5,{"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"}},{0.3,{"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_damage.rvmat"}},{0.0,{"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_destruct.rvmat"}}};
 				};
 			};
 			class GlobalArmor
@@ -129,30 +87,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage = 0.9;
 					};
 				};
 			};
@@ -177,7 +135,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_Grey: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co.paa"
@@ -186,7 +144,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_Brown: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co2.paa"
@@ -195,7 +153,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_Green: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co3.paa"
@@ -204,7 +162,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_DarkBrown: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_co4.paa"
@@ -213,7 +171,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_Blue: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_merc.paa"
@@ -222,7 +180,7 @@ class CfgVehicles
 	class FFFF_Clothing_Pants_WinterPants_DarkGreen: SFM_WinterPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Winter\Pants\data\winter_pants_neutral.paa"

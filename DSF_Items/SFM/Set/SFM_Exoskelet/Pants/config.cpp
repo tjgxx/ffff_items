@@ -210,7 +210,7 @@ class CfgVehicles
 	class FFFF_Armor_Pants_HeavyArmorPants: SFM_ExoPants_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Pants\data\tb_pants_ca.paa"

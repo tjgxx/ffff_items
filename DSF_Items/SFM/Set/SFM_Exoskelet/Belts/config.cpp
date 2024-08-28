@@ -36,8 +36,8 @@ class CfgVehicles
 	class SFM_ExoBelt_Base: CivilianBelt
 	{
 		scope=0;
-		displayName="Ремень Экзоскелета";
-		descriptionShort="Ремень экзоскелета для сталкеров - революционное снаряжение, обеспечивающее усиление физических способностей в условиях Зоны. Изготовленный из уникальных наноматериалов, этот ремень обеспечивает невероятное увеличение выносливости и силы, позволяя сталкерам проявлять выдающиеся физические способности в самых экстремальных условиях. Встроенные нейроинтерфейсы синхронизируются с мышечной системой, обеспечивая максимальную эффективность движений и реакций. Это снаряжение стало настоящим прорывом в технологиях защиты и усиления физических способностей в мире Зоны.";
+		displayName="Exoskeleton Belt";
+		descriptionShort="The exoskeleton belt for ferals is a revolutionary piece of equipment that enhances physical abilities in the District. Made from unique nanomaterials, this belt provides an incredible increase in endurance and strength, allowing ferals to demonstrate outstanding physical abilities in the most extreme conditions. Built-in neural interfaces are synchronized with the muscular system, ensuring maximum efficiency of movements and reactions. This equipment has become a real breakthrough in technologies for protection and enhancing physical abilities.";
 		model="ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Belts\SFM_ExoBelt_g.p3d";
 		vehicleClass="Clothing";
 		simulation="clothing";

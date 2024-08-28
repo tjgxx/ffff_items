@@ -4,11 +4,11 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FFFF_Clothing_Jacket_ProtectiveJacket_Brown",
-			"FFFF_Clothing_Jacket_ProtectiveJacket_Grey",
-			"FFFF_Clothing_Jacket_ProtectiveJacket_Tan",
-			"FFFF_Clothing_Jacket_ProtectiveJacket_DarkBrown",
-			"FFFF_Clothing_Jacket_ProtectiveJacket_Black"
+			"FFFF_Clothing_Jackets_ProtectiveJacket_Brown",
+			"FFFF_Clothing_Jackets_ProtectiveJacket_Grey",
+			"FFFF_Clothing_Jackets_ProtectiveJacket_Tan",
+			"FFFF_Clothing_Jackets_ProtectiveJacket_DarkBrown",
+			"FFFF_Clothing_Jackets_ProtectiveJacket_Black"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -143,30 +143,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -188,7 +188,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class FFFF_Clothing_Jacket_ProtectiveJacket_Brown: SFM_CS3AJacket
+	class FFFF_Clothing_Jackets_ProtectiveJacket_Brown: SFM_CS3AJacket
 	{
 		scope=2;
 		visibilityModifier=0.75;
@@ -198,7 +198,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_01_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_ProtectiveJacket_Grey: SFM_CS3AJacket
+	class FFFF_Clothing_Jackets_ProtectiveJacket_Grey: SFM_CS3AJacket
 	{
 		scope=2;
 		visibilityModifier=0.75;
@@ -208,7 +208,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_02_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_ProtectiveJacket_Tan: SFM_CS3AJacket
+	class FFFF_Clothing_Jackets_ProtectiveJacket_Tan: SFM_CS3AJacket
 	{
 		scope=2;
 		visibilityModifier=0.75;
@@ -218,7 +218,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_stalker_03_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_ProtectiveJacket_DarkBrown: SFM_CS3AJacket
+	class FFFF_Clothing_Jackets_ProtectiveJacket_DarkBrown: SFM_CS3AJacket
 	{
 		scope=2;
 		visibilityModifier=0.75;
@@ -228,7 +228,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Set\SFM_CS3A\Jacket\data\cs3a_hoods_renegade_co.paa"
 		};
 	};
-	class FFFF_Clothing_Jacket_ProtectiveJacket_Black: SFM_CS3AJacket
+	class FFFF_Clothing_Jackets_ProtectiveJacket_Black: SFM_CS3AJacket
 	{
 		scope=2;
 		visibilityModifier=0.75;

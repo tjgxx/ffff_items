@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FFFF_Armor_Helmet_ZSH1_Black"
+			"FFFF_Armor_Helmets_ZSH1_Black"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -143,7 +143,7 @@ class CfgVehicles
 			female="ffff_items\DSF_Items\SFM\Headgear\SFM_ZSH1\SFM_ZSH1.p3d";
 		};
 	};
-	class FFFF_Armor_Helmet_ZSH1_Black: SFM_ZSH1_Helmet_Base
+	class FFFF_Armor_Helmets_ZSH1_Black: SFM_ZSH1_Helmet_Base
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=

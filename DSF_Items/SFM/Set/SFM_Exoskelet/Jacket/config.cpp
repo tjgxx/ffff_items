@@ -214,7 +214,7 @@ class CfgVehicles
 	class FFFF_Armor_Jackets_HeavyArmorJacket: SFM_ExoJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Exoskelet\Jacket\data\tb_shirt_ca.paa"

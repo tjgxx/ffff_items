@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: Top\SFM_FightJacket\data\FightJacket.rvmat
-//Produced from mikero's Dos Tools Dll version 8.90
-//https://mikero.bytex.digital/Downloads
-//'now' is Wed Aug 28 11:01:29 2024 : 'file' last modified on Mon Apr 01 08:50:29 2024
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,1};

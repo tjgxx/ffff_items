@@ -132,30 +132,30 @@ class CfgVehicles
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 				class Infected
 				{
 					class Health
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Blood
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 					class Shock
 					{
-						damage=0.89999998;
+						damage=0.9;
 					};
 				};
 			};
@@ -180,7 +180,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_Sweater_Green: SFM_Sweater_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_ca.paa"
@@ -189,7 +189,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_Sweater_Green2: SFM_Sweater_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_2_ca.paa"
@@ -198,7 +198,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_Sweater_Black: SFM_Sweater_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_black_ca.paa"
@@ -207,7 +207,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_Sweater_Brown: SFM_Sweater_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_brown_ca.paa"
@@ -216,7 +216,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_Sweater_Blue: SFM_Sweater_ColorBase
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Top\SFM_Sweater_Stalker\data\sweater_stalker_merc_ca.paa"

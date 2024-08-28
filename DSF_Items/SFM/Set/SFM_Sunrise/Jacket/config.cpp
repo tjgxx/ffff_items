@@ -201,7 +201,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_SunriseJacket_Grey: SFM_SunriseJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Jacket\data\SunriseM1_Jacket_gray_co.paa",
@@ -211,7 +211,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_SunriseJacket_Brown: SFM_SunriseJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Jacket\data\SunriseM1_Jacket_brown_co.paa",
@@ -221,7 +221,7 @@ class CfgVehicles
 	class FFFF_Clothing_Jackets_SunriseJacket_Green: SFM_SunriseJacket_Base
 	{
 		scope=2;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.9;
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\DSF_Items\SFM\Set\SFM_Sunrise\Jacket\data\SunriseM1_Jacket_co.paa",

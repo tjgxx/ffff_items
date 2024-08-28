@@ -4,13 +4,13 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FFFF_Armor_Vest_TacTec_Black",
-			"FFFF_Armor_Vest_TacTec_Blue",
-			"FFFF_Armor_Vest_TacTec_Green",
-			"FFFF_Armor_Vest_TacTec_Tan",
-			"FFFF_Armor_Vest_TacTec_Brown",
-			"FFFF_Armor_Vest_TacTec_Merc",
-			"FFFF_Armor_Vest_TacTec_KB"
+			"FFFF_Armor_Vests_TacTec_Black",
+			"FFFF_Armor_Vests_TacTec_Blue",
+			"FFFF_Armor_Vests_TacTec_Green",
+			"FFFF_Armor_Vests_TacTec_Tan",
+			"FFFF_Armor_Vests_TacTec_Brown",
+			"FFFF_Armor_Vests_TacTec_Merc",
+			"FFFF_Armor_Vests_TacTec_KB"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -190,7 +190,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Black: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Black: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -199,7 +199,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_Black.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Blue: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Blue: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -208,7 +208,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_BLUE.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Green: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Green: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -217,7 +217,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_GREEN.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Tan: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Tan: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -226,7 +226,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_TAN.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Brown: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Brown: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -235,7 +235,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_brown.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_Merc: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_Merc: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
@@ -244,7 +244,7 @@ class CfgVehicles
 			"ffff_items\DSF_Items\SFM\Vest\SFM_TacTec\data\TEC_TEC_Merc.paa"
 		};
 	};
-	class FFFF_Armor_Vest_TacTec_KB: SFM_TacTec_Vest
+	class FFFF_Armor_Vests_TacTec_KB: SFM_TacTec_Vest
 	{
 		scope=2;
 		visibilityModifier=0.94999999;
