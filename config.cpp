@@ -360,49 +360,7 @@ class CfgVehicles
 			"ffff_items\Data\Wallet\Textures\ffff_wallet_yellow_co.paa"
 		};
 	};
-
-	class Flag_Base: Inventory_Base{};
-
-	class Flag_Templars: Flag_Base
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\Textures\Flag_Temp_co.paa"
-		};
-		color="Templars";
-	};
-
-	class Flag_Responders: Flag_Base
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\Textures\Flag_Responders_co.paa"
-		};
-		color="Responders";
-	};
-
-	class Flag_Union: Flag_Base
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\Textures\Flag_Union_co.paa"
-		};
-		color="Union";
-	};
-
-	class Flag_UN : Flag_Base
-	{
-		scope=2;
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\Textures\Flag_UN_co.paa"
-		};
-		color="UN";
-	}
-
+	
 	class GasMask_Filter: Inventory_Base
 	{
 		varQuantityInit=75;
@@ -448,24 +406,28 @@ class CfgVehicles
 	{
 		soundVoiceType="none";
 		soundVoicePriority=5;
+		repairableWithKits[]={8,6};
 	};
 
 	class GP5GasMask : Clothing
 	{
 		soundVoiceType="none";
 		soundVoicePriority=5;
+		repairableWithKits[]={8,6};
 	};
 
 	class AirborneMask: Clothing
 	{
 		soundVoiceType="none";
 		soundVoicePriority=5;
+		repairableWithKits[]={8,6};
 	};
 
 	class FOG_M50_Gasmask_Base: GasMask
 	{
 		varQuantityInit=150;
 		varQuantityMax=150;
+		repairableWithKits[]={8,6};
 		class Protection
 		{
 			biological=1;
@@ -488,115 +450,5 @@ class CfgVehicles
 		repairCosts[]={30,25};
 		soundVoiceType="none";
 		soundVoicePriority=5;
-	};
-
-	class HouseNoDestruct;
-
-	class Wall_Flag_Arkin : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Arkin_Wall_Flag_co.paa"
-		};
-	};
-
-	class Wall_Flag_ASEP : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\ASEP_Wall_Flag_co.paa"
-		};
-	};
-
-	class Wall_Flag_Bandit : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Bandit_Wall_Flag_co.paa"
-		};
-	};
-
-	class Wall_Flag_Darpa : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Darpa_Wall_Flag_co.paa"
-		};
-	};
-
-	class Wall_Flag_Market : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Market_Wall_Flag_co.paa"
-		};
-	};
-
-	class Wall_Flag_UN : HouseNoDestruct
-	{
-		scope=1;
-		model="ffff_items\Data\Flags\WallFlags\Wall_Flag.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\Wall_Flag.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Data\Flags\WallFlags\Textures\UN_Wall_Flag_co.paa"
-		};
 	};
 };

@@ -34,8 +34,9 @@ class CfgVehicles
 	class Clothing_Base;
 	class BaseballCapReverse_ColorBase: Clothing_Base
 	{
+		displayName="Baseball Cap"
 		descriptionShort="Wear it backwards like the cool kids do!";
-		model="\hatbackwards\Data\BaseballCapReverse\baseballcapreverse_g.p3d";
+		model="ffff_items\BackwardsHats\Data\BaseballCapReverse\baseballcapreverse_g.p3d";
 		inventorySlot="Headgear";
 		simulation="clothing";
 		vehicleClass="Clothing";
@@ -54,8 +55,7 @@ class CfgVehicles
 		repairCosts[]={30,25};
 		headSelectionsToHide[]=
 		{
-			"Clipping_Balaclava",
-			"Clipping_BoonieHat"
+			"Clipping_baseballcap"
 		};
 		hiddenSelections[]=
 		{

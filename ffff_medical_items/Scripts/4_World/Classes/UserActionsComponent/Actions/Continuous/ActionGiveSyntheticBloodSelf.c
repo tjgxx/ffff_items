@@ -40,7 +40,6 @@ class ActionGiveSyntheticBloodSelf: ActionContinuousBase
 	{
         PlayerBase m_Player = action_data.m_Player;
         ItemBase item = ItemBase.Cast(action_data.m_MainItem);
-        float blood_obtained = PlayerConstants.SL_BLOOD_HIGH - action_data.m_Player.GetHealth("", "Blood");
 		
 		DamageSystem.ResetAllZones(m_Player);
 		m_Player.GetModifiersManager().ResetAll();
@@ -87,8 +86,6 @@ class ActionGiveSyntheticBloodSelf: ActionContinuousBase
 		}
 		
 		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_HEATBUFFER);
-
-		action_data.m_Player.GetSoftSkillsManager().AddSpecialty( m_SpecialtyWeight );
 
         action_data.m_MainItem.Delete();
 

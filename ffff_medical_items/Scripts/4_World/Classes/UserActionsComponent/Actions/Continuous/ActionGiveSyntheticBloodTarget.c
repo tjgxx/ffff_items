@@ -66,7 +66,7 @@ class ActionGiveSyntheticBloodTarget: ActionContinuousBase
 			m_Player.m_StaminaHandler.SetStamina(GameConstants.STAMINA_MAX);
 
 
-        while (m_Player.HasDisease())
+        while (m_Player.m_DiseaseCount > 0)
         {
             m_Player.DecreaseDiseaseCount();
         };
@@ -79,8 +79,6 @@ class ActionGiveSyntheticBloodTarget: ActionContinuousBase
 			m_Player.GetModifiersManager().DeactivateModifier(eModifiers.MDF_HEATBUFFER);
 		}
 		m_Player.GetModifiersManager().ActivateModifier(eModifiers.MDF_HEATBUFFER);
-
-		action_data.m_Player.GetSoftSkillsManager().AddSpecialty( m_SpecialtyWeight );
 
         action_data.m_MainItem.Delete();
 	}
