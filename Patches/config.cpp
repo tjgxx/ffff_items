@@ -7,22 +7,20 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"DZ_Data",
-			"ModularVestSystem"
+			"DZ_Data"
 		};
 	};
 };
 class cfgVehicles
 {
 	class Inventory_Base{};
-	class Clothing_Base;
-	class Clothing: Clothing_Base{};
+	class Clothing;
 
 	class FFFF_Armband_Base: Clothing
 	{
 		scope=0;
 		displayName="Armband";
-		descriptionShort="Armband";
+		descriptionShort="A well-worn armband displaying the emblem of a crew, syndicate, or organization. Its design varies by group, serving as a clear identifier for those within and outside its ranks. Whether a symbol of pride, tradition, or inevitability, it's instantly recognized across territories by those who know what it represents.";
 		model="ffff_items\Patches\NewArmbands\Data\FFFF_Armband_New.p3d";
 		itemSize[]={2,2};
 		inventorySlot[]={"Armband"};
@@ -32,12 +30,12 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_DARPA_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
         hiddenSelectionsMaterials[]=
         {
-            "ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Test.rvmat",
-			"ModularVestSystem\data\vestTextures\MVS_Armband.rvmat"
+            "ffff_items\Patches\NewArmbands\Data\FFFF_Armband.rvmat",
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband.rvmat"
         };
 		class DamageSystem
 		{
@@ -48,11 +46,11 @@ class cfgVehicles
 					hitpoints=100;
                     healthLevels[]=
                     {
-                        {1.0,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Test.rvmat","ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Test.rvmat"}},
-                        {0.7,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Test.rvmat","ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Test.rvmat"}},
-                        {0.5,{"ModularVestSystem\data\vestTextures\MVS_Country_Patch_damage.rvmat","ModularVestSystem\data\vestTextures\MVS_Armband_damage.rvmat"}},
-                        {0.3,{"ModularVestSystem\data\vestTextures\MVS_Country_Patch_damage.rvmat","ModularVestSystem\data\vestTextures\MVS_Armband_damage.rvmat"}},
-                        {0.0,{"ModularVestSystem\data\vestTextures\MVS_Country_Patch_destruct.rvmat","ModularVestSystem\data\vestTextures\MVS_Armband_destruct.rvmat"}}
+                        {1.0,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband.rvmat","ffff_items\Patches\NewArmbands\Data\MVS_Armband.rvmat"}},
+                        {0.7,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband.rvmat","ffff_items\Patches\NewArmbands\Data\MVS_Armband.rvmat"}},
+                        {0.5,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_damage.rvmat","ffff_items\Patches\NewArmbands\Data\MVS_Armband_damage.rvmat"}},
+                        {0.3,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_damage.rvmat","ffff_items\Patches\NewArmbands\Data\MVS_Armband_damage.rvmat"}},
+                        {0.0,{"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_destruct.rvmat","ffff_items\Patches\NewArmbands\Data\MVS_Armband_destruct.rvmat"}}
                     };
 				};
 			};
@@ -63,8 +61,8 @@ class cfgVehicles
 		};
 		class ClothingTypes
 		{
-			male="ModularVestSystem\data\MVS_Patch_m2.p3d";
-			female="ModularVestSystem\data\MVS_Patch_m2.p3d";
+			male="ffff_items\Patches\NewArmbands\Data\ArmbandPatchHolder\MVS_Patch_m2.p3d";
+			female="ffff_items\Patches\NewArmbands\Data\ArmbandPatchHolder\MVS_Patch_m2.p3d";
 		};
 		class AnimEvents
 		{
@@ -91,12 +89,12 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Boysies_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
         {
             "ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Boysies.rvmat",
-			"ModularVestSystem\data\vestTextures\MVS_Armband.rvmat"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband.rvmat"
         };
 	};
 
@@ -107,7 +105,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_ASEP_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -118,7 +116,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_UN_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -129,7 +127,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Arkin_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -140,7 +138,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_DARPA_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -151,7 +149,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Market_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -162,7 +160,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Bandit_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -173,7 +171,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_D3AF_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -184,7 +182,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_D3AF_Camo_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -195,7 +193,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Lodge_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -206,7 +204,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Sowjet_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -217,7 +215,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Templar_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -228,7 +226,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_TrueEye_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 
@@ -239,129 +237,7 @@ class cfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"ffff_items\Patches\NewArmbands\Data\FFFF_Armband_Union_co.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-
-	class Modular_Patch_Base_2;
-	class FFFF_Patch_Arkin: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Arkin Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Arkin_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_D3AF: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="D3AF Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\D3AF_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_D3AF_Camo: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="D3AF Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\D3AF_Camo_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_ASEP: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="ASEP Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\ASEP_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_Bandit: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Bandit Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Bandit_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_DOC: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="DOC Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\DOC_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_Market: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Market Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Market_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_UN: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="UN Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\UN_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_Lodge: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Lodge Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Lodge_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_DARPA: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="DARPA Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\DARPA_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_Templar: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Templar Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Templar_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
-		};
-	};
-	class FFFF_Patch_Union: Modular_Patch_Base_2
-	{
-		scope=2;
-		displayName="Union Patch";
-		hiddenSelectionsTextures[]=
-		{
-			"ffff_items\Patches\Data\Union_Patch.paa",
-			"\ModularVestSystem\data\vestTextures\MVS_Armband_co.paa"
+			"ffff_items\Patches\NewArmbands\Data\MVS_Armband_co.paa"
 		};
 	};
 };

@@ -77,9 +77,6 @@ class ActionGiveSyntheticBloodSelf: ActionContinuousBase
             m_Player.DecreaseDiseaseCount();
         };
 
-		if (m_Player.IsUnconscious())
-			DayZPlayerSyncJunctures.SendPlayerUnconsciousness(m_Player, false);
-
 		if (m_Player.GetModifiersManager().IsModifierActive(eModifiers.MDF_HEATBUFFER))
 		{
 			m_Player.GetModifiersManager().DeactivateModifier(eModifiers.MDF_HEATBUFFER);

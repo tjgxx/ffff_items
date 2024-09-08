@@ -61,7 +61,7 @@ class CfgVehicles
 		model="DZ\characters\backpacks\CanvasBag_g.p3d";
 		displayName="Stashed Bag";
         class Cargo {
-            itemsCargoSize[]={5,10};
+            itemsCargoSize[]={10,10};
         };
 		descriptionShort="Someone stashed this bag. Wonder if there's anything good in it..."; 
 		class DamageSystem
@@ -108,7 +108,7 @@ class CfgVehicles
 		scope=2;		
 		model="dz\gear\containers\Protector_Case.p3d";
 		class Cargo {
-			itemsCargoSize[]={5,5};
+			itemsCargoSize[]={10,10};
 		}
 		displayName="Stashed Protective Case";
 		descriptionShort="Someone stashed this case. Wonder if there's anything good in it...";
@@ -143,7 +143,7 @@ class CfgVehicles
 		scope=2;
 		model="DZ\gear\camping\wooden_case.p3d";
 		class Cargo {
-            itemsCargoSize[]={10,10};
+            itemsCargoSize[]={10,20};
         }
 		displayName="Stashed Wooden Crate";
 		descriptionShort="Someone stashed this crate. Wonder if there's anything good in it..." ;
@@ -188,7 +188,7 @@ class CfgVehicles
 			"mmg_storage\data\crates\weapon_crate\weapon_crate_wood.paa"
 		};
 		class Cargo {
-			itemsCargoSize[]={10,15};
+			itemsCargoSize[]={10,20};
 		};
 		displayName="Stashed Weapon Crate";
 		descriptionShort="Someone stashed this weapon crate. Wonder if there's anything good in it..." ;
