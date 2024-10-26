@@ -84,24 +84,10 @@ class CfgVehicles
 		};
 	};
 
-	class bldr_FFFF_CanvasBagStash_T2 : FFFF_CanvasBagStash_T1
-	{
-		scope=1;
-	}
-
-	class bldr_FFFF_CanvasBagStash_T3 : FFFF_CanvasBagStash_T1
-	{
-		scope=1;
-	}
-
-	class bldr_FFFF_CanvasBagStash_T4 : FFFF_CanvasBagStash_T1
-	{
-		scope=1;
-	}
-
 	class FFFF_CanvasBagStash_T2 : FFFF_CanvasBagStash_T1 {};
 	class FFFF_CanvasBagStash_T3 : FFFF_CanvasBagStash_T1 {};
 	class FFFF_CanvasBagStash_T4 : FFFF_CanvasBagStash_T1 {};
+	class FFFF_CanvasBagStash_T5 : FFFF_CanvasBagStash_T1 {};
 
 	class FFFF_ProtectorCaseStash_T1 : FFFF_Stash_Base
 	{
@@ -135,6 +121,7 @@ class CfgVehicles
 	class FFFF_ProtectorCaseStash_T2: FFFF_ProtectorCaseStash_T1{};
 	class FFFF_ProtectorCaseStash_T3: FFFF_ProtectorCaseStash_T1{};
 	class FFFF_ProtectorCaseStash_T4: FFFF_ProtectorCaseStash_T1{};
+	class FFFF_ProtectorCaseStash_T5: FFFF_ProtectorCaseStash_T1{};
 
 	class WoodenCrate;
 
@@ -170,6 +157,7 @@ class CfgVehicles
 	class FFFF_WoodenCrateStash_T2: FFFF_WoodenCrateStash_T1{};
 	class FFFF_WoodenCrateStash_T3: FFFF_WoodenCrateStash_T1{};
 	class FFFF_WoodenCrateStash_T4: FFFF_WoodenCrateStash_T1{};
+	class FFFF_WoodenCrateStash_T5: FFFF_WoodenCrateStash_T1{};
 
 	class FFFF_WeaponCrateStash_Base: FFFF_Stash_Base {
 		scope=0;
@@ -197,6 +185,7 @@ class CfgVehicles
 	class FFFF_WeaponCrateStash_T2: FFFF_WeaponCrateStash_T1{};
 	class FFFF_WeaponCrateStash_T3: FFFF_WeaponCrateStash_T1{};
 	class FFFF_WeaponCrateStash_T4: FFFF_WeaponCrateStash_T1{}; 
+	class FFFF_WeaponCrateStash_T5: FFFF_WeaponCrateStash_T1{}; 
 
 	class FFFF_MedicBoxStash_Base : FFFF_Stash_Base 
 	{
@@ -228,6 +217,7 @@ class CfgVehicles
 	class FFFF_MedicBoxStash_T2 : FFFF_MedicBoxStash_T1{};
 	class FFFF_MedicBoxStash_T3 : FFFF_MedicBoxStash_T1{};
 	class FFFF_MedicBoxStash_T4 : FFFF_MedicBoxStash_T1{};
+	class FFFF_MedicBoxStash_T5 : FFFF_MedicBoxStash_T1{};
 
 	class FFFF_GrenadeCaseStash_Base : FFFF_Stash_Base
 	{
@@ -259,6 +249,7 @@ class CfgVehicles
 	class FFFF_GrenadeCaseStash_T2 : FFFF_GrenadeCaseStash_T1{};
 	class FFFF_GrenadeCaseStash_T3 : FFFF_GrenadeCaseStash_T1{};
 	class FFFF_GrenadeCaseStash_T4 : FFFF_GrenadeCaseStash_T1{};
+	class FFFF_GrenadeCaseStash_T5 : FFFF_GrenadeCaseStash_T1{};
 
 	class FFFF_SupplyCrateStash_Base : FFFF_Stash_Base
 	{
@@ -289,6 +280,7 @@ class CfgVehicles
 	class FFFF_SupplyCrateStash_T2 : FFFF_SupplyCrateStash_T1{};
 	class FFFF_SupplyCrateStash_T3 : FFFF_SupplyCrateStash_T1{};
 	class FFFF_SupplyCrateStash_T4 : FFFF_SupplyCrateStash_T1{};
+	class FFFF_SupplyCrateStash_T5 : FFFF_SupplyCrateStash_T1{};
 
 	class FFFF_PaletteStorageStash_Base : FFFF_Stash_Base
 	{
@@ -326,4 +318,5 @@ class CfgVehicles
 	class FFFF_PaletteStorageStash_T2 : FFFF_PaletteStorageStash_T1{};
 	class FFFF_PaletteStorageStash_T3 : FFFF_PaletteStorageStash_T1{};
 	class FFFF_PaletteStorageStash_T4 : FFFF_PaletteStorageStash_T1{};
+	class FFFF_PaletteStorageStash_T5 : FFFF_PaletteStorageStash_T1{};
 };

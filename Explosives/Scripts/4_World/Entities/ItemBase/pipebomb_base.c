@@ -249,3 +249,20 @@ class PipeBomb_Base : ExplosivesBase
 		RegisterNetSyncVariableBool("m_Pinned");
 	}
 }
+
+
+modded class Grenade_Base
+{
+	void Grenade_Base()
+	{
+		SetEventMask(EntityEvent.CONTACT);
+	};
+
+	override void EOnContact(IEntity other, Contact extra)
+	{
+		if (extra.Impulse > 5)
+		{
+			PlaySound("Impact_grenade_ground_ext_SoundSet", 20, false);
+		}
+	};
+}

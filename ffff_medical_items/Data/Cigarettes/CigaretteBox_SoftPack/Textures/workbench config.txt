@@ -1,0 +1,346 @@
+--- Template ---
+
+          {
+            "Result": "",
+            "ResultCount": 0,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "",
+            "CraftComponents": [
+              {
+                "Classname": "",
+                "Amount": 0,
+                "Destroy": 0,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "",
+                "Amount": 0,
+                "Destroy": 0,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "",
+                "Amount": 0,
+                "Destroy": 0,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+
+------------------
+
+        "CategoryName": "Iris Template",
+        "IncludedWorkbenches": [
+					"Market_Workbench"
+				],
+        "CraftItems": [
+          {
+            "Result": "EpoxyPutty",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Epoxy",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Glue",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Bone",
+                "Amount": 6,
+                "Destroy": 6,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "SR_LudiumsModel3",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Geiger Counter",
+            "CraftComponents": [
+              {
+                "Classname": "Screwdriver",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 1
+              },
+              {
+                "Classname": "Battery9V",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_wire",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+			  {
+                "Classname": "CJ_Materials_Circuit_Board",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+			  {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "SR_BandageDressing_2",
+            "ResultCount": 8,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Bandages",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Fabric_Simple",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Rag",
+                "Amount": 6,
+                "Destroy": 6,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_threads",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+			  {
+                "Classname": "DisinfectantAlcohol",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "PlateCarrierHolster_Black",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Holster",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Fabric_Black",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_threads",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "LeatherSewingKit",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "MMG_sheath_black",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Sheath",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Fabric_Black",
+                "Amount": 0,
+                "Destroy": 0,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_threads",
+                "Amount": 0,
+                "Destroy": 0,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "LeatherSewingKit",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "WeaponCleaningKit",
+            "ResultCount": 100,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Weapon Cleaning Kit",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Screwdriver",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 1
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "BO_SKS_Tactical",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "SKS to SKS Tactical",
+            "CraftComponents": [
+              {
+                "Classname": "SKS",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+			  {
+                "Classname": "Screwdriver",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 1
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "CharcoalTablets",
+            "ResultCount": 12,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Dismantle Improvised Filter",
+            "CraftComponents": [
+              {
+                "Classname": "GasMask_Filter_Improvised",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "HuntingKnife",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 1
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "FFFF_Clothing_Bags_SportsBag_Green",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Duffel Bag",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Fabric_Green",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_threads",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "SewingKit",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },
+		  {
+            "Result": "FFFF_Clothing_Bags_TouristBackpack_Green",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 0,
+            "CraftType": "craft",
+            "RecipeName": "Camping Backpack",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Fabric_Green",
+                "Amount": 4,
+                "Destroy": 4,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_threads",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "SewingKit",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+			  {
+                "Classname": "LeatherSewingKit",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Drill"
+            ]
+          },

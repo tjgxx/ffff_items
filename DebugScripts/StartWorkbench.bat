@@ -1,0 +1,1 @@
+start /D "H:\SteamLibrary\steamapps\common\DayZ Tools\Bin\Workbench" workbenchApp.exe "-scriptDebug=true" "-cpuCount=4" "-mission=%mission%" "-mod=@CF;P:\PNV_Radiation_System;"

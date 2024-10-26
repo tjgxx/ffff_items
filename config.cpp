@@ -22,7 +22,9 @@ class CfgPatches
 			"PMK_5A_Gas_Mask",
 			"SimpleRadiation",
 			"FOG_Masks_M50Gasmask",
-			"DZ_Gear_Crafting"
+			"DZ_Gear_Crafting",
+			"DZ_Characters_Tops",
+			"DZ_Weapons_Firearms_AK74"
 		};
 	};
 };
@@ -451,4 +453,90 @@ class CfgVehicles
 		soundVoiceType="none";
 		soundVoicePriority=5;
 	};
+
+	class HuntingJacket_ColorBase : Clothing{};
+
+	class FFFF_Clothing_Jackets_HuntingJacket_TrustNo1 : HuntingJacket_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.80000001;
+		hiddenSelectionsTextures[]=
+		{
+			"ffff_items\Data\HuntingJacket\Textures\trustno_green_co.paa",
+			"ffff_items\Data\HuntingJacket\Textures\trustno_green_co.paa",
+			"ffff_items\Data\HuntingJacket\Textures\trustno_green_co.paa"
+		};
+	};
 };
+class cfgWeapons
+{
+	class AK74;
+
+	class FFFF_Weapons_Rifles_AK74_Gold : AK74
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"dz\weapons\firearms\AK101\data\ak101_co.paa",
+			"DZ\weapons\attachments\magazine\data\magazine_ak74_tan_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"ffff_items\Data\GoldAK\AK_g.rvmat",
+			"DZ\weapons\attachments\magazine\data\magazine_ak74_tan.rvmat"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=250;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"ffff_items\Data\GoldAK\AK_g.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"ffff_items\Data\GoldAK\AK_g.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"ffff_items\Data\GoldAK\AK_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"ffff_items\Data\GoldAK\AK_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"ffff_items\Data\GoldAK\AK_g_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+	};
+}

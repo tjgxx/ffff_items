@@ -8,5 +8,9 @@ modded class ActionConstructor
         actions.Insert( ActionMedkitTarget );
         actions.Insert( ActionGiveSyntheticBloodSelf );
         actions.Insert( ActionGiveSyntheticBloodTarget );
+        actions.Insert( ActionLightCigarette );
+        actions.Insert(ActionUnpackCigarette);
+        actions.Insert(ActionSmokeCigarette);
+        actions.Insert(ActionLightAttachedCigarette);
     }
 }
